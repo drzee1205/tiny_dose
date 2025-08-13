@@ -41,6 +41,15 @@ export interface SearchFilters {
   route?: string;
 }
 
+export interface DrugFilters {
+  system?: string;
+  drugClass?: string;
+  route?: string;
+  dosageForm?: string;
+  frequency?: string;
+  sortBy?: 'name' | 'system' | 'class' | 'route';
+}
+
 export interface AppSettings {
   preferredWeightUnit: 'kg' | 'lbs';
   darkMode: boolean;
