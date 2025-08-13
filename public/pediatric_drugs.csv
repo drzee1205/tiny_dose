@@ -1,0 +1,446 @@
+System,Drug,Class,Indication,Pediatric_Dose,Max_Dose,Dosage_Form,Route,Frequency,Contraindications,Major_Side_Effects,Special_Notes
+Cardiovascular,Warfarin,Anticoagulant,Thrombosis,0.2 mg/kg/day,10 mg/day,Tab,PO,Once daily,Active bleeding,Bleeding,Monitor INR
+Cardiovascular,Adenosine,Antiarrhythmic,SVT,0.1 mg/kg IV rapid max 12 mg,12 mg,IV amp,IV,Single dose,2°/3° AV block,Flushing chest pain,Rapid IV push
+Cardiovascular,Sotalol,Antiarrhythmic,SVT,2-8 mg/kg/day ÷ BID,320 mg/day,Tab,PO,BID,Prolonged QT,Torsades fatigue,Monitor ECG
+Cardiovascular,Isosorbide dinitrate,Nitrate,CHF,0.5-1 mg/kg/day ÷ TID,20 mg/day,Tab,PO,TID,Severe anemia,Headache hypotension,Tolerance develops
+Cardiovascular,Digoxin,Cardiac glycoside,CHF SVT,5-15 mcg/kg/day ÷ BID,1 mg/day,Elixir tab,PO/IV,Once or BID,AV block WPW,Bradycardia GI upset,Monitor levels narrow TI
+Cardiovascular,Nitroprusside,Vasodilator,HTN crisis,0.5-8 mcg/kg/min IV,—,IV infusion,IV,Continuous,Cyanide toxicity,Cyanide poisoning,Monitor thiocyanate
+Cardiovascular,Milrinone,PDE-3 inhibitor,CHF,0.5-0.75 mcg/kg/min,—,IV infusion,IV,Continuous,Severe renal failure,Arrhythmias,Monitor BP
+Cardiovascular,Dobutamine,Inotrope,Low-output CHF,2-20 mcg/kg/min IV,—,IV infusion,IV,Continuous,Same as dopamine,Same as dopamine,ICU use
+Cardiovascular,Dopamine,Inotrope,Shock,2-20 mcg/kg/min IV,—,IV infusion,IV,Continuous,Tachyarrhythmias,Tachycardia arrhythmia,ICU use
+Cardiovascular,Hydralazine,Vasodilator,HTN CHF,0.75-1 mg/kg/day ÷ QID,7.5 mg/kg/day,Tab IV,PO/IV,QID,Coronary disease,Tachycardia lupus-like,Reflex tachycardia
+Cardiovascular,Atenolol,β-blocker,HTN,0.5-1 mg/kg/day,2 mg/kg/day,Tab,PO,Once daily,Heart block,Fatigue bradycardia,Monitor HR
+Cardiovascular,Propranolol,β-blocker,HTN arrhythmias migraine,0.5-1 mg/kg/day ÷ BID,4 mg/kg/day,Tab liquid IV,PO/IV,BID,Asthma bradycardia,Fatigue hypoglycemia,Avoid in asthma
+Cardiovascular,Amlodipine,CCB,HTN,0.1 mg/kg/day,10 mg/day,Tab,PO,Once daily,Severe AS,Edema flushing,Long half-life
+Cardiovascular,Losartan,ARB,HTN,0.7 mg/kg/day,50 mg/day,Tab,PO,Once daily,Pregnancy,Hyperkalemia AKI,Monitor renal fxn
+Cardiovascular,Lisinopril,ACE inhibitor,CHF HTN,0.07 mg/kg/day,40 mg/day,Tab,PO,Once daily,Pregnancy hyper-K,Dry cough AKI,Once-daily dosing
+Cardiovascular,Enalapril,ACE inhibitor,CHF HTN,0.1 mg/kg/day ÷ BID,40 mg/day,Tab oral soln,PO,BID,Pregnancy hyper-K,Dry cough AKI,Titrate slowly
+Cardiovascular,Spironolactone,K-sparing diuretic,CHF HTN,1-3 mg/kg/day ÷ BID,100 mg/day,Tab oral susp,PO,BID,Hyperkalemia,Gynecomastia GI upset,Monitor K+
+Cardiovascular,Furosemide,Loop diuretic,CHF HTN,1-2 mg/kg/dose q6-12 h,6 mg/kg/day,Tab liquid IV,PO/IV,q6-12 h,Anuria dehydration,Hypokalemia ototoxicity,Monitor electrolytes
+Cardiovascular,Heparin,Anticoagulant,Thrombosis,Loading 75 U/kg then 28 U/kg/h,—,IV infusion,IV,Continuous,Active bleeding,HIT bleeding,Monitor aPTT
+Cardiovascular,Aspirin,Antiplatelet,Kawasaki stroke,3-5 mg/kg/day,100 mg/day,Tab chew,PO,Once daily,Viral illness (Reye),GI bleed,Monitor salicylate
+Dermatology,Terbinafine 1%,Antifungal,Tinea,BID x1-2 wk,—,Cream gel,Topical,BID,None,Irritation,Short course
+Dermatology,Triamcinolone 0.1%,Mid-potency TCS,Psoriasis,BID,—,Cream oint,Topical,BID,Same as above,Same as above,Avoid face
+Dermatology,Betamethasone 0.05%,High-potency TCS,Lichen planus,QD-BID,—,Cream oint,Topical,QD-BID,Same as above,Same as above,2-week limit
+Dermatology,Tacrolimus 0.03%,Calcineurin inhibitor,Atopic dermatitis,BID,—,Ointment,Topical,BID,Infection,Burning,Safe for face
+Dermatology,Pimecrolimus 1%,Calcineurin inhibitor,Atopic dermatitis,BID,—,Cream,Topical,BID,Same as above,Same as above,Same as above
+Dermatology,Permethrin 5%,Scabicide,Scabies,Apply neck-down x8-14 h,—,Cream,Topical,Once,Neonates <2 mo,Pruritus,Repeat at 1 wk
+Dermatology,Ivermectin,Antiparasitic,Scabies,200 mcg/kg PO x1-2,12 mg,Tab,PO,Single,<15 kg,GI upset,Not 1st-line
+Dermatology,Benzyl benzoate 25%,Scabicide,Scabies,Apply x24 h,—,Lotion,Topical,Once,Neonates,Irritation,Wash off
+Dermatology,Lindane 1%,Scabicide,Scabies,Apply x8-12 h,—,Lotion,Topical,Once,Seizure history,Neurotoxicity,Reserved
+Dermatology,Malathion 0.5%,Pediculicide,Head lice,Apply x8-12 h,—,Lotion,Topical,Once,Infants,Irritation,Comb nits
+Dermatology,Permethrin 1%,Pediculicide,Head lice,Apply x10 min,—,Lotion,Topical,Once,<2 mo,Irritation,Repeat at 9 days
+Dermatology,Ketoconazole 2%,Antifungal,Tinea,BID x2-4 wk,—,Cream shampoo,Topical,BID,Hepatic disease,Irritation,Monitor LFTs
+Dermatology,Clotrimazole 1%,Antifungal,Tinea,BID x2-4 wk,—,Cream solution,Topical,BID,None,Irritation,OTC
+Dermatology,Miconazole 2%,Antifungal,Tinea,BID x2-4 wk,—,Cream powder,Topical,BID,None,Irritation,OTC
+Dermatology,Hydrocortisone 1%,Topical corticosteroid,Eczema,BID-TID,—,Cream oint,Topical,BID-TID,Infection,Skin atrophy,Face ≤7 days
+Dermatology,Griseofulvin,Systemic antifungal,Tinea capitis,20-25 mg/kg/day,1 g/day,Tab liquid,PO,Once daily,Hepatic failure,Hepatitis,Monitor LFTs
+Dermatology,Acyclovir 5%,Antiviral,HSV,5x/day x5 days,—,Cream oint,Topical,5x/day,None,Irritation,Combine PO
+Dermatology,Penciclovir 1%,Antiviral,HSV,q2h x4 days,—,Cream,Topical,q2h,None,Irritation,Limited data
+Dermatology,Benzoyl peroxide 2.5-10%,Antiacne,Acne,QD-BID,—,Gel wash,Topical,QD-BID,None,Irritation,Start low
+Dermatology,Salicylic acid 2-40%,Keratolytic,Warts,Once daily,—,Gel plaster,Topical,Once daily,Diabetes,Irritation,Avoid face
+Endocrine,Insulin lispro,Rapid-acting insulin,DM1 DM2,0.5-1 U/kg/day,—,Injection,SQ,TID-QID,Hypoglycemia,Hypoglycemia,Carb counting
+Endocrine,Insulin glargine,Long-acting insulin,DM1 DM2,0.5-1 U/kg/day,—,Injection,SQ,Once daily,Hypoglycemia,Hypoglycemia,Monitor glucose
+Endocrine,Teriparatide,PTH analog,Osteoporosis,20 mcg/day,—,Injection,SQ,Once daily,Paget disease,Hypercalcemia,SQ injection
+Endocrine,Calcitriol,Active vitamin D,Hypoparathyroidism,0.25-2 mcg/day,2 mcg/day,Cap liquid,PO,Once daily,Hypercalcemia,Hypercalcemia,Monitor Ca²⁺
+Endocrine,Bromocriptine,Dopamine agonist,Prolactinoma,1.25 mg BID,15 mg/day,Tab,PO,BID,Same as cabergoline,Same as above,Same as above
+Endocrine,Cabergoline,Dopamine agonist,Prolactinoma,0.25 mg BID,1 mg/day,Tab,PO,BID,Cardiac valvulopathy,Nausea,Monitor ECHO
+Endocrine,Lanreotide,Somatostatin analog,Acromegaly,60-120 mg q4wk,—,Depot,IM,q4wk,Same as octreotide,Same as above,Depot injection
+Endocrine,Octreotide,Somatostatin analog,Hyperinsulinism,1-10 mcg/kg/day ÷ TID,1500 mcg/day,Amp,SQ/IV,TID,Gallstones,GI upset,Monitor glucose
+Endocrine,Growth hormone,GH,GH deficiency,0.025-0.04 mg/kg/day,0.06 mg/kg/day,Injection,SQ,Once daily,Active malignancy,Edema,Monitor IGF-1
+Endocrine,Vasopressin,ADH,DI shock,0.01 U/kg/h,—,IV infusion,IV,Continuous,Vascular disease,Hyponatremia,ICU use
+Endocrine,Desmopressin,ADH analog,DI,0.1 mg BID,0.8 mg/day,Tab nasal spray,PO/IV/SQ,BID,Hyponatremia,Water intoxication,Monitor Na+
+Endocrine,Fludrocortisone,Mineralocorticoid,CAH,0.05-0.2 mg/day,0.4 mg/day,Tab,PO,Once daily,Cardiac failure,Hypertension,Monitor K+
+Endocrine,Prednisolone,Corticosteroid,Adrenal insufficiency,0.5-2 mg/kg/day,80 mg/day,Tab liquid,PO,Once daily,Same as hydrocortisone,Same as above,Taper slowly
+Endocrine,Hydrocortisone,Corticosteroid,Adrenal insufficiency,8-10 mg/m²/day ÷ TID,80 mg/day,Tab IV,PO/IV,TID,Systemic fungal infections,Growth suppression,Stress dosing
+Endocrine,Propylthiouracil,Antithyroid,Hyperthyroidism,5-7 mg/kg/day ÷ TID,300 mg/day,Tab,PO,TID,Hepatotoxicity,Hepatitis,Monitor LFTs
+Endocrine,Methimazole,Antithyroid,Hyperthyroidism,0.5-1 mg/kg/day ÷ TID,40 mg/day,Tab,PO,TID,Agranulocytosis,Rash agranulocytosis,Monitor CBC
+Endocrine,Liothyronine,T3,Myxedema,5 mcg/day titrate,50 mcg/day,Tab,PO,Once daily,Same as levothyroxine,Same as above,Short half-life
+Endocrine,Levothyroxine,Thyroid hormone,Hypothyroidism,10-15 mcg/kg/day,200 mcg/day,Tab liquid,PO,Once daily,Uncorrected adrenal insufficiency,Tachycardia,Monitor TSH
+Endocrine,Metformin,Biguanide,DM2,500 mg BID,2000 mg/day,Tab liquid,PO,BID,Renal failure,GI upset,Monitor eGFR
+Endocrine,Sitagliptin,DPP-4 inhibitor,DM2,25-100 mg/day,100 mg/day,Tab,PO,Once daily,Pancreatitis,URI,Monitor LFTs
+Fluid_Electrolyte,D25W,Hypertonic dextrose,Severe hypoglycemia,2-4 mL/kg IV,—,Ampule,IV,Bolus,Hyperglycemia,Same as above,Monitor glucose
+Fluid_Electrolyte,D5 0.2% NaCl,Maintenance,Maintenance fluids,100 mL/kg/day first 10 kg + 50 mL/kg next 10 kg + 20 mL/kg >20 kg,—,Bag,IV,Continuous,None,Hypoglycemia,Adjust dextrose
+Fluid_Electrolyte,Lactated Ringer,Isotonic crystalloid,Resuscitation,20 mL/kg bolus then maintenance,—,Bag,IV,Bolus/continuous,Hyperkalemia,Lactic acidosis,Monitor electrolytes
+Fluid_Electrolyte,Acetazolamide,Carbonic anhydrase inhibitor,Metabolic alkalosis,5 mg/kg IV q12h,—,Tab inj,PO/IV,q12h,Renal failure,Metabolic acidosis,Monitor bicarbonate
+Fluid_Electrolyte,Spironolactone,K-sparing diuretic,Edema,1-3 mg/kg/day ÷ BID,100 mg/day,Tab susp,PO,BID,Hyperkalemia,Gynecomastia GI upset,Monitor K+
+Fluid_Electrolyte,Furosemide,Loop diuretic,Edema,1 mg/kg IV q12-24h,—,Ampule,IV,q12-24h,Anuria,Hypokalemia ototoxicity,Monitor electrolytes
+Fluid_Electrolyte,Mannitol 20%,Osmotic diuretic,Cerebral edema,0.25-1 g/kg IV over 30-60 min,2 g/kg,Vial,IV,PRN,Anuria,CHF electrolyte imbalance,Monitor osmolality
+Fluid_Electrolyte,Hydroxyethyl starch,Colloid,Hypovolemia,10-20 mL/kg IV,—,Bag,IV,Bolus,Severe renal failure,Coagulopathy,Monitor coagulation
+Fluid_Electrolyte,Albumin 5%,Colloid,Hypoalbuminemia,0.5-1 g/kg IV,—,Bag,IV,PRN,Volume overload,Volume overload,Monitor albumin
+Fluid_Electrolyte,Magnesium sulfate 50%,Electrolyte,Hypomagnesemia,25-50 mg/kg IV over 20 min,2 g,Vial,IV,PRN,Hypermagnesemia,Flaccidity arrhythmia,Monitor reflexes
+Fluid_Electrolyte,Calcium gluconate 10%,Electrolyte,Hypocalcemia,100 mg/kg IV over 30 min,—,Ampule,IV,q6-8h,Hypercalcemia,Bradycardia arrhythmia,Monitor ECG
+Fluid_Electrolyte,Potassium chloride,Electrolyte,Hypokalemia,0.5-1 mEq/kg IV over 2 h (max 40 mEq),40 mEq,Vial,IV,q6-8h,Hyperkalemia,Cardiac arrhythmia,Monitor ECG
+Fluid_Electrolyte,Sodium bicarbonate 8.4%,Alkalinizing agent,Metabolic acidosis,1-2 mEq/kg IV titrate,—,Ampule,IV,PRN,Alkalosis,Alkalosis hypokalemia,Monitor ABG
+Fluid_Electrolyte,Normal saline 3%,Hypertonic saline,Symptomatic hyponatremia,2-3 mL/kg IV over 30-60 min,—,Bag,IV,Single,Hypernatremia,Hypernatremia seizures,Monitor Na⁺
+Fluid_Electrolyte,D10W,Hypertonic dextrose,Hypoglycemia,2-4 mL/kg IV,—,Bag,IV,Bolus,Hyperglycemia,Hyperglycemia,Monitor glucose
+Fluid_Electrolyte,D5 0.45% NaCl,Maintenance,Maintenance fluids,100 mL/kg/day first 10 kg + 50 mL/kg next 10 kg + 20 mL/kg >20 kg,—,Bag,IV,Continuous,None,Hypoglycemia,Adjust dextrose
+Fluid_Electrolyte,LR,Isotonic crystalloid,Resuscitation,20 mL/kg bolus then maintenance,—,Bag,IV,Bolus/continuous,Hyperkalemia,Lactic acidosis,Monitor electrolytes
+Fluid_Electrolyte,0.9% NaCl,Isotonic crystalloid,Maintenance resuscitation,20 mL/kg bolus then maintenance,—,Bag,IV,Bolus/continuous,None,Volume overload,Monitor I/O
+Gastroenterology,Lactulose,Osmotic laxative,Constipation hepatic encephalopathy,1-2 g/kg/day ÷ BID,None,Liquid,PO,Once or BID,Galactosemia,Flatulence abdominal cramps,Monitor electrolytes
+Gastroenterology,Linaclotide,Guanylate cyclase-C agonist,Chronic constipation IBS-C,0.05-0.1 mg/kg/day (max 6 mg),6 mg/day,Oral capsule,PO,Once daily,Bowel obstruction,Diarrhea flatulence,Not <6 yrs
+Gastroenterology,Prucalopride,5-HT4 agonist,Chronic constipation,0.02-0.04 mg/kg/day,2 mg/day,Tablet,PO,Once daily,Intestinal perforation obstruction,Headache diarrhea,Not <18 yrs
+Gastroenterology,Mebendazole,Anthelmintic,Pinworm roundworm whipworm,100 mg single dose (pinworm) repeat 2 wks,—,Chewable tab,PO,Single,Hypersensitivity pregnancy,Abdominal pain neutropenia,Treat household contacts
+Gastroenterology,Albendazole,Anthelmintic,Neurocysticercosis hydatid,15 mg/kg/day ÷ BID ×8-30 days,800 mg/day,Tablet,PO,BID,Hypersensitivity,Hepatotoxicity leukopenia,Monitor LFT CBC
+Gastroenterology,Nitazoxanide,Antiprotozoal,Giardiasis cryptosporidiosis,100 mg BID (1-3 yrs) 200 mg BID (4-11 yrs) ×3 days,400 mg/day,Oral susp tab,PO,BID,Hypersensitivity,Abdominal pain headache,Take with food
+Gastroenterology,Rifaximin,Non-absorbed antibiotic,Hepatic encephalopathy traveler's diarrhea,200 mg TID ×3 days (≥12 yrs),1650 mg/day,Tablet,PO,TID,Hypersensitivity rifamycins,Nausea abdominal pain,Not for bloody diarrhea
+Gastroenterology,Pancrelipase,Pancreatic enzyme,Exocrine insufficiency,Start 500 U lipase/kg/meal titrate,10 000 U/kg/day,Capsule powder,PO,With meals,Pork allergy,Abdominal pain fibrosing colonopathy,Monitor stool fat
+Gastroenterology,Ursodeoxycholic acid,Bile acid,Cholestasis,10-20 mg/kg/day ÷ 2-3 doses,750 mg,Tablet suspension,PO,BID-TID,Biliary obstruction,Diarrhea nausea,Monitor LFT
+Gastroenterology,Prednisolone,Corticosteroid,IBD flare,1-2 mg/kg/day (max 60 mg),60 mg,Tablet liquid,PO,Once daily,Systemic infection,Mood changes growth suppression,Taper slowly
+Gastroenterology,Budesonide,Corticosteroid,Crohn ileocolonic,9 mg daily,9 mg,ER capsule,PO,Once daily,Systemic fungal infection,Headache respiratory infection,Growth monitoring
+Gastroenterology,Infliximab,Anti-TNF mAb,Moderate-severe IBD,5 mg/kg IV weeks 0 2 6 then q8wk,10 mg/kg,Vial,IV,Infusion,Hypersensitivity CHF,Infusion reactions infections,TB screen
+Gastroenterology,Azathioprine,Immunosuppressant,Severe IBD,1-2 mg/kg/day (max 2.5 mg/kg),2.5 mg/kg/day,Tablet,PO,Once daily,TPMT deficiency,Marrow suppression hepatotoxicity,TPMT genotype
+Gastroenterology,Sulfasalazine,Anti-inflammatory,IBD JIA,40-60 mg/kg/day ÷ 3-4 doses,2-4 g/day,Tablet,PO,TID-QID,Sulfa hypersensitivity porphyria,Blood dyscrasias hepatitis,Monitor CBC LFT
+Gastroenterology,Mesalamine,5-ASA,IBD mild-moderate,20-60 mg/kg/day ÷ 2-4 doses,4.8 g/day,Delayed-release tabs,PO,BID-QID,Salicylate hypersensitivity,Headache nausea pancreatitis,Monitor renal fxn
+Gastroenterology,Ondansetron,5-HT3 antagonist,CINV PONV,0.15 mg/kg IV q8h (max 16 mg),16 mg,Vial ODT,IV/PO,TID for CINV,Hypersensitivity,Headache constipation QT prolong,Monitor ECG if risk
+Gastroenterology,Metoclopramide,Prokinetic antiemetic,GERD gastroparesis,0.1-0.2 mg/kg TID-QID,0.5 mg/kg/day (max 40 mg),Tablet syrup inj,PO/IV,TID-QID 30 min ac,Seizure history GI obstruction,Extrapyramidal reactions,Monitor EPS
+Gastroenterology,Omeprazole,PPI,GERD erosive esophagitis,0.5-1 mg/kg/day,20 mg (<20 kg) 40 mg (≥20 kg),Capsule suspension,PO,Once daily,Hypersensitivity,Headache abdominal pain,Use lowest effective dose
+Gastroenterology,PEG 3350,Osmotic laxative,Functional constipation bowel prep,0.4 g/kg/day,None,Oral powder,PO,Once daily,GI obstruction,Abdominal bloating,Ensure hydration
+Hematology,Ferrous sulfate,Iron supplement,Iron-deficiency anemia,2-6 mg/kg/day elemental,6 mg/kg/day,Drops tab,PO,TID,GI ulcer,Constipation nausea,Take with vitamin C
+Hematology,Platelet transfusion,Platelet product,Thrombocytopenia,5-10 mL/kg,—,Bag,IV,PRN,Volume overload,Transfusion reaction,Cross-match
+Hematology,Blood transfusion,Blood product,Anemia bleeding,10-15 mL/kg PRBC,—,Bag,IV,PRN,Volume overload,Transfusion reaction,Cross-match
+Hematology,Deferasirox,Iron chelator,Transfusional iron overload,20-30 mg/kg/day,40 mg/kg/day,Tab dispersible,PO,Once daily,Severe renal/hepatic,GI upset hepatic failure,Monitor creatinine LFT
+Hematology,Desferrioxamine,Iron chelator,Transfusional iron overload,20-40 mg/kg SC 8-12 h,—,Vial,SC,8-12 h,Renal failure,Ototoxicity retinopathy,Monitor ferritin
+Hematology,Factor concentrates (rFVIIa),Coagulation factor,Bleeding disorders,90 mcg/kg IV q2-3h PRN,—,Vial,IV,PRN,Factor inhibitors,Thrombosis,Monitor factor levels
+Hematology,Rituximab,Anti-CD20 mAb,ITP autoimmune hemolytic anemia,375 mg/m² IV weekly x4,—,Vial,IV,Weekly,Active infection,Infusion reaction infection,TB screen
+Hematology,Eltrombopag,TPO agonist,ITP,1-6 yrs 25 mg daily; 6-11 yrs 50 mg; ≥12 yrs 50-75 mg,75 mg/day,Tab,PO,Once daily,Hepatic failure,Hepatotoxicity thrombosis,Monitor LFT platelets
+Hematology,Hydroxyurea,Antimetabolite,Sickle cell disease,20-30 mg/kg/day,2 g/day,Cap,PO,Once daily,Severe marrow suppression,Cytopenia mucositis,Monitor CBC
+Hematology,Pentoxifylline,Hemorheologic agent,Sickle cell crisis,20 mg/kg/day ÷ TID,1.2 g/day,Tab,PO,TID,Intracranial hemorrhage,Nausea dizziness,Monitor BP
+Hematology,Clopidogrel,Antiplatelet,Stroke prevention,1 mg/kg/day,75 mg/day,Tab,PO,Once daily,Bleeding,Bleeding,Monitor CBC
+Hematology,Aspirin,Antiplatelet,Kawasaki disease,3-5 mg/kg/day,100 mg/day,Tab chew,PO,Once daily,Viral illness (Reye),GI bleed,Monitor salicylate
+Hematology,Rivaroxaban,Direct oral anticoagulant,VTE prophylaxis,Weight-based 15-20 mg daily (≥12 yrs),20 mg/day,Tab,PO,Once daily,Bleeding,Bleeding,Monitor renal
+Hematology,Low-molecular-weight heparin,Anticoagulant,DVT PE,1 mg/kg SC q12h,—,Prefilled syringe,SC,q12h,Bleeding,Bleeding,Monitor anti-Xa
+Hematology,Heparin,Anticoagulant,DVT PE,Loading 75 U/kg then 20 U/kg/h,—,Vial,IV,Continuous,Bleeding,Bleeding HIT,Monitor aPTT
+Hematology,Warfarin,Anticoagulant,Thrombosis,0.2 mg/kg/day,10 mg/day,Tab,PO,Once daily,Bleeding,Bleeding,Monitor INR
+Hematology,Factor IX concentrate,Coagulation factor,Hemophilia B,50-100 U/kg IV,—,Vial,IV,PRN,Factor IX inhibitors,Same as above,Same as above
+Hematology,Factor VIII concentrate,Coagulation factor,Hemophilia A,25-50 U/kg IV,—,Vial,IV,PRN,Factor VIII inhibitors,Allergic reactions,Monitor factor levels
+Hematology,Tranexamic acid,Antifibrinolytic,Bleeding disorders,15 mg/kg IV q8h,—,Ampule,IV,q8h,Thromboembolism,Thrombosis,Monitor D-dimer
+Hematology,Desmopressin,Antidiuretic,Von Willebrand disease,0.3 mcg/kg IV q12-24h,—,Ampule nasal spray,IV/Intranasal,q12-24h,Hyponatremia,Water intoxication,Monitor Na+
+Hematology,Vitamin B12,Cobalamin,Megaloblastic anemia,0.1 mg IM monthly,—,Ampule,IM,Monthly,None,None,Monitor retic count
+Hematology,Folic acid,Vitamin B9,Megaloblastic anemia,1 mg/day,—,Tab drops,PO,Once daily,Pernicious anemia,None,Masks B12 deficiency
+Immunology_Allergy,Adrenaline (Epinephrine),Sympathomimetic,Anaphylaxis,0.01 mg/kg IM (0.01 mL/kg 1:1000),0.5 mg,Auto-injector amp,IM,Repeat q5-15 min,None,Tachycardia tremor,Call EMS
+Immunology_Allergy,Subcutaneous immunoglobulin,Immunoglobulin,Primary immunodeficiency,100 mg/kg weekly SC,—,Vial,SC,Weekly,Same as above,Injection site,Home infusion
+Immunology_Allergy,Immunoglobulin IV,Immunoglobulin,Primary immunodeficiency,400-600 mg/kg IV monthly,—,Vial,IV,Monthly,IgA deficiency anaphylaxis,Headache fever,Dose by weight
+Immunology_Allergy,Diphenhydramine,Antihistamine,Allergic reactions,1 mg/kg IV/PO q6h,50 mg/dose,Tab liquid inj,PO/IV,q6h,Antihistamine hypersensitivity,Sedation anticholinergic,Monitor CNS
+Immunology_Allergy,Loratadine,Non-sedating antihistamine,Allergic rhinitis,2-5 yrs 5 mg 6-11 yrs 10 mg daily,10 mg/day,Tab syrup,PO,Once daily,Hypersensitivity,Headache GI upset,Non-sedating
+Immunology_Allergy,Cetirizine,Non-sedating antihistamine,Allergic rhinitis urticaria,6-23 mo 2.5 mg 2-5 y 5 mg ≥6 y 10 mg daily,10 mg/day,Susp tab,PO,Once daily,Hypersensitivity,Drowsiness GI upset,Less sedation
+Immunology_Allergy,Fexofenadine,Non-sedating antihistamine,Allergic rhinitis,2-11 yrs 30 mg BID ≥12 yrs 60 mg BID,120 mg/day,Tab susp,PO,BID,Hypersensitivity,Headache,Non-sedating
+Immunology_Allergy,Chlorpheniramine,Sedating antihistamine,Allergic reactions,0.35 mg/kg/day ÷ QID,12 mg/day,Syrup tab,PO,QID,Sedating antihistamines,Sedation anticholinergic,Avoid driving
+Immunology_Allergy,Hydroxyzine,Sedating antihistamine,Pruritus anxiety,0.5-1 mg/kg q6h,100 mg/day,Syrup tab,PO/IM,q6h,Sedating antihistamines,Sedation anticholinergic,Short-term use
+Immunology_Allergy,Promethazine,Phenothiazine antihistamine,Nausea allergy,0.25-0.5 mg/kg q6h,25 mg/dose,Syrup tab supp,PO/PR/IM,q6h,Respiratory depression,Sedation EPS,Black-box respiratory depression <2 yrs
+Immunology_Allergy,Ranitidine,H2 blocker,Allergic GI symptoms,2-4 mg/kg/day ÷ BID,300 mg/day,Syrup tab,PO/IV,BID,Hypersensitivity,Headache diarrhea,Withdrawn NDMA
+Immunology_Allergy,Famotidine,H2 blocker,Allergic GI symptoms,0.5-1 mg/kg/day ÷ BID,40 mg/day,Susp tab,PO/IV,BID,Hypersensitivity,Headache diarrhea,Monitor renal
+Immunology_Allergy,Montelukast,LTRA,Asthma allergic rhinitis,4 mg (<6 yrs) 5 mg (6-14 yrs) qHS,5 mg/day,Chew tab granules,PO,qHS,Hypersensitivity,Neuropsychiatric events,Warn parents
+Immunology_Allergy,Omalizumab,Anti-IgE mAb,Severe allergic asthma,75-375 mg SC q2-4 wk (weight & IgE),375 mg,Prefilled syringe,SC,q2-4 wk,Hypersensitivity,Anaphylaxis URI,Observe 2 h
+Immunology_Allergy,Dupilumab,Anti-IL-4/IL-13 mAb,Atopic dermatitis asthma,6-11 yrs 300 mg SC q4wk ≥12 yrs 300 mg q2wk,300 mg,Prefilled syringe,SC,q2-4 wk,Active infection,Conjunctivitis injection site,Monitor infection
+Immunology_Allergy,Mepolizumab,Anti-IL-5 mAb,Severe asthma,40 mg SC q4wk (6-11 yrs) 100 mg (≥12 yrs),100 mg,Prefilled syringe,SC,q4wk,Active infection,Headache URI,Monitor infection
+Immunology_Allergy,Reslizumab,Anti-IL-5 mAb,Severe asthma,3 mg/kg IV q4wk,—,Vial,IV,q4wk,Active infection,Anaphylaxis,Observe 2 h
+Immunology_Allergy,Berniximab,Anti-IgE mAb,Food allergy,Investigational,—,Vial,SC,Monthly,None,Injection site,Under study
+Immunology_Allergy,Sodium cromoglycate,Mast cell stabilizer,Allergic rhinitis asthma,2-12 yrs 1 spray each nostril QID,—,Nasal spray,Inh,QID,Hypersensitivity,Sneezing throat irritation,Start before season
+Immunology_Allergy,Ketotifen,Mast cell stabilizer,Allergic conjunctivitis,1 drop BID,—,Eye drops,Topical,BID,Hypersensitivity,Burning stinging,OTC
+Immunology_Allergy,Olodaterol,Long-acting β2 agonist,Asthma COPD,Not approved <12 yrs,—,Inhaler,Inh,Once daily,Asthma monotherapy,Tremor tachycardia,With ICS only
+Infectious_Diseases,Tobramycin,Aminoglycoside,Pseudomonas infections,Same as gentamicin,—,Vial,IV,Once daily,Same as above,Same as above,Same as above
+Infectious_Diseases,Amoxicillin,Penicillin,Otitis media pneumonia prophylaxis asplenia,10 mg/kg/dose BID prophylaxis 20-40 mg/kg/day treatment,250 mg BID (>5 yrs prophylaxis),Susp chew cap,PO,BID-TID,Penicillin allergy,Rash diarrhea non-allergic w/ EBV,Adjust renal
+Infectious_Diseases,Amoxicillin-Clavulanate,Penicillin + β-lactamase,Resistant otitis sinusitis pneumonia,50 mg/kg/day ÷ BID (<40 kg) 875/125 mg BID (>40 kg),6 g/day amoxicillin,Susp tab,PO,BID-TID,Penicillin allergy jaundice,Diarrhea cholestatic jaundice,Monitor LFT
+Infectious_Diseases,Cefalexin,1st gen cephalosporin,Skin UTI otitis,25-50 mg/kg/day ÷ QID severe 100 mg/kg/day,4 g/day,Cap susp,PO,QID,Cephalosporin allergy,Diarrhea rash,Good penicillin alt
+Infectious_Diseases,Cefuroxime,2nd gen cephalosporin,Sinusitis pneumonia otitis,20-30 mg/kg/day ÷ BID severe 60 mg/kg/day,1 g/day,Tab susp,PO,BID,Cephalosporin allergy,Diarrhea rash,Better Gram-negative cover
+Infectious_Diseases,Ceftriaxone,3rd gen cephalosporin,Meningitis sepsis typhoid,50-100 mg/kg IV daily (meningitis 100 mg/kg),4 g/day,Vial,IV,Once daily,Neonate hyperbilirubinemia,Rash biliary sludge,Do not mix Ca neonates
+Infectious_Diseases,Cefotaxime,3rd gen cephalosporin,Meningitis sepsis,50 mg/kg IV q6-8h,—,Vial,IV,q6-8h,Cephalosporin allergy,Rash injection site pain,Adjust renal
+Infectious_Diseases,Gentamicin,Aminoglycoside,Gram-negative sepsis,7.5 mg/kg IV q24h (≥1 mo),—,Vial,IV,Once daily,Aminoglycoside allergy,Nephro/oto,Monitor levels
+Infectious_Diseases,Vancomycin,Glycopeptide,MRSA C diff (PO),10-15 mg/kg IV q6-8h neonates q12-24h,2 g/dose,Vial,IV,q6-8h,Hypersensitivity,Red-man nephro/oto,Monitor trough
+Infectious_Diseases,Clindamycin,Lincosamide,MRSA anaerobic infections,10 mg/kg IV q8h PO 10 mg/kg TID,900 mg/dose IV 2.7 g/day,Cap susp vial,PO/IV,TID-QID,Lincomycin allergy,CDAD rash,Monitor CDAD
+Infectious_Diseases,Azithromycin,Macrolide,Atypical pneumonia pertussis,10 mg/kg/day PO 3-5 days,500 mg/day,Susp tab,PO,Once daily,Macrolide allergy,QT prolongation GI upset,Take 1 hr before meals
+Infectious_Diseases,Clarithromycin,Macrolide,Strep pneumo H pylori,7.5 mg/kg BID,1 g/day,Susp tab,PO,BID,Macrolide allergy,Hepatitis QT prolong,Potent CYP3A4
+Infectious_Diseases,Trimethoprim-Sulfamethoxazole,Sulfa combo,PCP typhoid pertussis,20 mg/kg SMX + 4 mg/kg TMP BID,1600 mg SMX + 320 mg TMP/day,Susp tab,PO,BID,Sulfa allergy G6PD,Hyperkalemia rash Stevens-Johnson,Monitor K⁺
+Infectious_Diseases,Ciprofloxacin,Fluoroquinolone,UTI meningococcal prophylaxis,1 mo-4 y 30 mg/kg (max 125 mg) single 5-11 y 250 mg 12-17 y 500 mg,500 mg,Tab susp,PO,Single (prophylaxis),Fluoroquinolone allergy,GI upset tendon rupture,Avoid in pregnancy
+Infectious_Diseases,Metronidazole,Nitroimidazole,Anaerobic infections giardiasis,10 mg/kg IV/PO q8h (max 400 mg),400 mg/dose,Tab susp vial,PO/IV,q8h,Nitroimidazole allergy,Metallic taste disulfiram,No alcohol 48 h
+Infectious_Diseases,Acyclovir,Antiviral,HSV encephalitis neonatal HSV chickenpox,Encephalitis 10 mg/kg IV q8h; neonatal 20 mg/kg q8h; chickenpox 20 mg/kg PO q6h,—,Tab susp vial,PO/IV,q6-8h,Hypersensitivity,Nephrotoxicity neurotoxicity,Hydrate
+Infectious_Diseases,Oseltamivir,Neuraminidase inhibitor,Influenza treatment prophylaxis,3 mg/kg BID treatment 3 mg/kg once daily prophylaxis,75 mg BID treatment 75 mg daily prophylaxis,Susp cap,PO,BID/QD,Hypersensitivity,Nausea vomiting,Start ≤48 h symptoms
+Infectious_Diseases,Isoniazid,Anti-TB,Tuberculosis treatment LTBI,10-15 mg/kg once daily max 300 mg,300 mg/day,Tab syrup,PO,Once daily,Severe hepatic disease,Hepatitis neuropathy,Pyridoxine supplement
+Infectious_Diseases,Rifampin,Anti-TB,TB meningococcal prophylaxis,TB 10-20 mg/kg daily max 600 mg; meningococcal 10 mg/kg q12h x2 days,600 mg/day,Cap syrup,PO,Once daily or BID,Rifamycin allergy,Hepatitis orange tears,Potent CYP inducer
+Infectious_Diseases,Pyrazinamide,Anti-TB,Tuberculosis initial phase,15-30 mg/kg once daily max 2 g,2 g/day,Tab,PO,Once daily,Severe hepatic disease gout,Hepatitis hyperuricemia,Monitor uric acid LFT
+Metabolic_Disorders,Desmopressin,ADH analog,Diabetes insipidus,0.1 mg BID nasal 10-40 mcg/day,0.8 mg/day,Tab nasal spray,PO/Intranasal,BID,Hyponatremia,Water intoxication,Monitor Na+
+Metabolic_Disorders,Sapropterin,Cofactor,Phenylketonuria,10-20 mg/kg/day,—,Tab powder,PO,Once daily,Hypersensitivity,Headache rhinitis,Blood Phe monitoring
+Metabolic_Disorders,Insulin,Short-acting,Type 1/2 diabetes,0.5-1 U/kg/day ÷ TID-QID,—,Vial pen,SC,TID-QID,Hypoglycemia,Hypoglycemia,Carb counting
+Metabolic_Disorders,Metformin,Biguanide,Type 2 diabetes,500 mg BID titrate max 2000 mg,2000 mg/day,Tab liquid,PO,BID,Renal failure,GI upset lactic acidosis,Monitor eGFR
+Metabolic_Disorders,Glyburide,Sulfonylurea,Type 2 diabetes,0.1-0.4 mg/kg/day ÷ BID,20 mg/day,Tab,PO,BID,Hypoglycemia,Hypoglycemia weight gain,Monitor glucose
+Metabolic_Disorders,Levothyroxine,Thyroid hormone,Hypothyroidism,10-15 mcg/kg/day,200 mcg/day,Tab liquid,PO,Once daily,Uncorrected adrenal insufficiency,Tachycardia,Monitor TSH
+Metabolic_Disorders,Liothyronine,T3,Myxedema,5 mcg/day titrate,50 mcg/day,Tab,PO,Once daily,Same as above,Same as above,Short half-life
+Metabolic_Disorders,Methimazole,Antithyroid,Hyperthyroidism,0.5-1 mg/kg/day ÷ TID,40 mg/day,Tab,PO,TID,Agranulocytosis,Rash agranulocytosis,Monitor CBC
+Metabolic_Disorders,Propylthiouracil,Antithyroid,Hyperthyroidism,5-7 mg/kg/day ÷ TID,300 mg/day,Tab,PO,TID,Hepatotoxicity,Hepatitis,Monitor LFT
+Metabolic_Disorders,Hydrocortisone,Corticosteroid,Adrenal insufficiency,8-10 mg/m²/day ÷ TID,80 mg/day,Tab IV,PO/IV,TID,Systemic fungal infection,Growth suppression,Stress dosing
+Metabolic_Disorders,Prednisolone,Corticosteroid,Adrenal insufficiency,0.5-2 mg/kg/day,80 mg/day,Tab liquid,PO,Once daily,Same as above,Same as above,Taper slowly
+Metabolic_Disorders,Fludrocortisone,Mineralocorticoid,CAH,0.05-0.2 mg/day,0.4 mg/day,Tab,PO,Once daily,Cardiac failure,Hypertension,Monitor K+
+Metabolic_Disorders,Growth hormone,Growth hormone,Growth hormone deficiency,0.025-0.04 mg/kg/day,0.06 mg/kg/day,Injection,SC,Once daily,Active malignancy,Edema,Monitor IGF-1
+Metabolic_Disorders,Octreotide,Somatostatin analog,Hyperinsulinism,1-10 mcg/kg/day ÷ TID,1500 mcg/day,Amp,SC/IV,TID,Gallstones,GI upset,Monitor glucose
+Metabolic_Disorders,Lanreotide,Somatostatin analog,Acromegaly,60-120 mg SC q4wk,—,Depot,SC,q4wk,Same as above,Same as above,Depot injection
+Metabolic_Disorders,Allopurinol,Xanthine oxidase,Hyperuricemia,10 mg/kg/day max 800 mg,800 mg/day,Tab,PO,Once daily,Hypersensitivity,Rash Stevens-Johnson,Start before chemo
+Metabolic_Disorders,Febuxostat,Xanthine oxidase,Hyperuricemia,Not approved <18 yrs,—,Tab,PO,Once daily,Same as above,Same as above,Adult use
+Metabolic_Disorders,Pegvaliase,Enzyme replacement,Phenylketonuria,2-20 mg SC weekly titrate,40 mg/week,Injection,SC,Weekly,Hypersensitivity,Injection site anaphylaxis,Gradual titration
+Metabolic_Disorders,Imiglucerase,Enzyme replacement,Gaucher disease,60 U/kg IV q2wk,—,Vial,IV,q2wk,Hypersensitivity,Infusion reaction,Monitor antibody
+Metabolic_Disorders,Eliglustat,Substrate reduction,Gaucher type I,Not approved <18 yrs,—,Cap,PO,BID,Strong CYP3A4 inhibitors,Cardiac arrhythmia,Adult use
+Metabolic_Disorders,Nitisinone,Enzyme inhibitor,Tyrosinemia type I,0.5-1 mg/kg twice daily,2 mg/kg/day,Cap,PO,BID,Hypersensitivity,Thrombocytopenia hepatic,Monitor platelets LFT
+Musculoskeletal_Orthopedics,Naproxen,NSAID,JIA pain,10 mg/kg BID,1000 mg/day,Tab susp,PO,BID,Same as above,Same as above,Same as above
+Musculoskeletal_Orthopedics,Indomethacin,NSAID,JIA PDA closure,1-2 mg/kg/day ÷ TID-QID,4 mg/kg/day,Cap susp supp,PO/PR,TID-QID,Same as above,Same as above,Monitor renal
+Musculoskeletal_Orthopedics,Meloxicam,NSAID,JIA,0.125 mg/kg once daily (≥2 yrs),15 mg/day,Tab susp,PO,Once daily,Same as above,Same as above,Once-daily
+Musculoskeletal_Orthopedics,Celecoxib,COX-2 inhibitor,JIA,≥2 yrs 50-100 mg BID,200 mg/day,Cap,PO,BID,Same as above,Same as above,Less GI bleed
+Musculoskeletal_Orthopedics,Acetaminophen,Analgesic antipyretic,Pain fever,10-15 mg/kg q4-6h,75 mg/kg/day,Tab liquid supp,PO/PR,q4-6h,Hepatic failure,Hepatotoxicity,Monitor total daily dose
+Musculoskeletal_Orthopedics,Tramadol,Opioid,Mild-moderate pain,1-2 mg/kg q6h,100 mg/dose,Tab liquid,PO,q6h,Opioid hypersensitivity,Respiratory depression seizures,Monitor respiration
+Musculoskeletal_Orthopedics,Morphine,Opioid,Severe pain,0.1-0.2 mg/kg IV q2-4h,—,Ampule,IV,q2-4h,Same as above,Same as above,Monitor respiration
+Musculoskeletal_Orthopedics,Codeine,Opioid,Pain cough,0.5-1 mg/kg q4-6h,60 mg/dose,Syrup tab,PO,q4-6h,Same as above,Same as above,Risk of apnea <12 yrs
+Musculoskeletal_Orthopedics,Hydrocodone,Opioid,Pain,0.1-0.2 mg/kg q4-6h,10 mg/dose,Syrup tab,PO,q4-6h,Same as above,Same as above,Same as above
+Musculoskeletal_Orthopedics,Oxycodone,Opioid,Pain,0.1-0.2 mg/kg q4-6h,10 mg/dose,Syrup tab,PO,q4-6h,Same as above,Same as above,Same as above
+Musculoskeletal_Orthopedics,Baclofen,Muscle relaxant,Spasticity,0.3 mg/kg/day ÷ TID titrate 0.75-2 mg/kg/day max 40-60 mg,60 mg/day,Tab liquid,PO,TID-QID,None,Sedation hypotonia,Avoid abrupt stop
+Musculoskeletal_Orthopedics,Tizanidine,α2-agonist,Spasticity,0.05 mg/kg/day ÷ BID titrate 0.2 mg/kg/day,0.2 mg/kg/day,Tab cap,PO,BID-TID,Hypersensitivity,Drowsiness hypotension,Monitor BP
+Musculoskeletal_Orthopedics,Ibuprofen,NSAID,Pain inflammation fever,5-10 mg/kg q6-8h,40 mg/kg/day,Tab susp,PO,q6-8h,NSAID allergy ulcer,GI bleed renal toxicity,Take with food
+Musculoskeletal_Orthopedics,Diazepam,Benzodiazepine,Muscle spasm,0.12-0.8 mg/kg/day ÷ TID-QID,—,Tab liquid inj,PO/IV,TID-QID,Severe resp insufficiency,Sedation dependence,Short-term use
+Musculoskeletal_Orthopedics,Methocarbamol,Muscle relaxant,Muscle spasm,15 mg/kg q6h,—,Tab inj,PO/IV,q6h,None,Drowsiness dizziness,Monitor CNS
+Musculoskeletal_Orthopedics,Diclofenac,NSAID,JIA pain,1-2 mg/kg/day ÷ BID,150 mg/day,Tab gel,PO/Topical,BID-QID,Same as above,Same as above,Topical less systemic
+Musculoskeletal_Orthopedics,Dantrolene,Muscle relaxant,Malignant hyperthermia,1-2.5 mg/kg IV q15 min max 10 mg/kg,—,Vial,IV,q15 min,None,Hepatotoxicity weakness,Monitor LFT
+Musculoskeletal_Orthopedics,Prednisolone,Corticosteroid,JRA myositis,1-2 mg/kg/day max 60 mg,60 mg/day,Tab liquid,PO,Once daily,Systemic infection,Same as above,Taper slowly
+Musculoskeletal_Orthopedics,Calcium,Vitamin D,Fracture prevention,500-1300 mg elemental daily,—,Tab chew,PO,Once daily,Hypercalcemia,Constipation,With vitamin D
+Musculoskeletal_Orthopedics,Vitamin D,Supplement,Bone health,400-1000 IU daily,—,Drops cap,PO,Once daily,Hypercalcemia,Hypercalcemia,Monitor Ca²⁺
+Muskeletal_Orthopedics,Orphenadrine,Muscle relaxant,Muscle spasm,2 mg/kg BID,—,Tab,PO,BID,Glaucoma,Anticholinergic,Monitor CNS
+Neonatology,Vitamin K,Coagulation factor,Vit K deficiency,0.5-1 mg IM/IV/PO single,1 mg,Ampule tab,IM/IV/PO,Single,None,Anaphylaxis IV,Fresh ampule
+Neonatology,Caffeine citrate,Methylxanthine,Apnea of prematurity,Loading 20 mg/kg PO/IV then 5-10 mg/kg daily,—,Solution,PO/IV,Once daily,Hypersensitivity tachycardia,Tachycardia jitteriness,Monitor serum levels
+Neonatology,Surfactant (Beractant),Lung surfactant,RDS,100 mg/kg intratracheal q6h PRN (max 4 doses),400 mg/kg,Vial,Intratracheal,q6h PRN,None,Airway obstruction,Administer via ETT
+Neonatology,Morphine,Opioid,Analgesia sedation,0.05-0.1 mg/kg IV q4-6h,—,Ampule,IV,q4-6h,Respiratory depression,Hypotension respiratory depression,Monitor RR BP
+Neonatology,Fentanyl,Opioid,Analgesia sedation,1-2 mcg/kg IV q2-4h,—,Ampule,IV,q2-4h,Same as morphine,Same as morphine,Short acting
+Neonatology,Midazolam,Benzodiazepine,Sedation,0.05-0.1 mg/kg IV q2-4h,—,Ampule,IV,q2-4h,Severe hypotension,Sedation hypotension,Monitor BP RR
+Neonatology,Phenobarbital,Anticonvulsant,Seizures,Loading 20 mg/kg IV then 3-5 mg/kg/day,—,Ampule tab,IV/PO,Once daily,Respiratory depression,Sedation respiratory depression,Monitor levels
+Neonatology,Phenytoin,Anticonvulsant,Seizures,Loading 15-20 mg/kg IV then 5-8 mg/kg/day,—,Ampule susp,IV/PO,BID,Heart block,Hypotension arrhythmia,Monitor levels ECG
+Neonatology,Prostaglandin E1,Vasodilator,Ductal-dependent CHD,0.05-0.1 mcg/kg/min IV,—,Ampule,IV,Continuous,None,Apnea hypotension,Intubation ready
+Neonatology,Dopamine,Inotrope,Hypotension,2-20 mcg/kg/min IV,—,Ampule,IV,Continuous,Tachyarrhythmias,Tachycardia arrhythmia,Monitor HR BP
+Neonatology,Dobutamine,Inotrope,Low cardiac output,2-20 mcg/kg/min IV,—,Ampule,IV,Continuous,Same as dopamine,Same as dopamine,Monitor HR BP
+Neonatology,Epinephrine,Vasopressor,Cardiac arrest,0.01 mg/kg IV q3-5 min,—,Ampule,IV,PRN,None,Tachycardia arrhythmia,Follow PALS
+Neonatology,Insulin,Short-acting,Hyperglycemia,0.05-0.1 U/kg/h IV titrate,—,Vial,IV,Continuous,Hypoglycemia,Hypoglycemia,Monitor glucose q1h
+Neonatology,Calcium gluconate,Electrolyte,Hypocalcemia,100-200 mg/kg IV slow,—,Ampule,IV,q6-8h,Hypercalcemia,Bradycardia arrhythmia,Monitor ECG
+Neonatology,Erythropoietin,Erythropoietic,Anemia of prematurity,250-400 U/kg SC 3x/wk,—,Vial,SC,3x/wk,Uncontrolled HTN,HTN thrombosis,Monitor Hct BP
+Neonatology,Iron sulfate,Iron supplement,Anemia prophylaxis,2-4 mg/kg/day elemental,6 mg/kg/day,Drops tab,PO,Once daily,Hemochromatosis,Constipation GI upset,Give with vitamin C
+Neonatology,Fluconazole,Antifungal,Candidiasis,6-12 mg/kg IV/PO daily,12 mg/kg/day,Susp vial,PO/IV,Once daily,Hepatic failure,Hepatotoxicity,Monitor LFT
+Neonatology,Acyclovir,Antiviral,HSV neonatal,20 mg/kg IV q8h ×14-21 days,—,Vial,IV,q8h,Renal failure,Nephrotoxicity,Hydrate well
+Neonatology,Vancomycin,Glycopeptide,MRSA sepsis,10-15 mg/kg IV q12-24h (age-based),—,Vial,IV,q12-24h,Red-man syndrome,Nephro/oto,Monitor trough
+Neonatology,Gentamicin,Aminoglycoside,Sepsis,2.5 mg/kg IV q12-48h (age-based),—,Vial,IV,q12-48h,Anuria,Nephro/oto,Monitor levels
+Neonatology,Furosemide,Loop diuretic,Edema,1 mg/kg IV q12-24h,—,Ampule,IV,q12-24h,Anuria,Hypokalemia ototoxicity,Monitor electrolytes
+Nephrology,Febuxostat,Xanthine oxidase inhibitor,Hyperuricemia,Not approved <18 yrs,—,Tab,PO,Once daily,Hypersensitivity,Same as above,Adult use
+Nephrology,Allopurinol,Xanthine oxidase inhibitor,Hyperuricemia tumor lysis,10 mg/kg/day max 800 mg,800 mg/day,Tab,PO,Once daily,Hypersensitivity,Rash Stevens-Johnson,Start before chemo
+Nephrology,Furosemide,Loop diuretic,Edema HTN,1-2 mg/kg IV/PO q6-12h,6 mg/kg/day,Tab liquid inj,PO/IV,q6-12h,Anuria,Hypokalemia ototoxicity,Monitor electrolytes
+Nephrology,Spironolactone,K-sparing diuretic,Edema HTN,1-3 mg/kg/day ÷ BID,100 mg/day,Tab susp,PO,BID,Hyperkalemia,Gynecomastia GI upset,Monitor K+
+Nephrology,Hydrochlorothiazide,Thiazide diuretic,HTN edema,1-2 mg/kg/day ÷ BID,100 mg/day,Tab liquid,PO,BID,Anuria,Hypokalemia hyperuricemia,Monitor electrolytes
+Nephrology,Mannitol,Osmotic diuretic,Cerebral edema,0.25-1 g/kg IV over 30-60 min,2 g/kg,Vial,IV,PRN,Anuria pulmonary edema,CHF electrolyte imbalance,Monitor osmolality
+Nephrology,Enalapril,ACE inhibitor,Proteinuria HTN,0.1 mg/kg/day ÷ BID,40 mg/day,Tab liquid,PO,BID,Pregnancy hyper-K,Dry cough AKI,Titrate slowly
+Nephrology,Lisinopril,ACE inhibitor,Proteinuria HTN,0.07 mg/kg/day,40 mg/day,Tab liquid,PO,Once daily,Same as above,Same as above,Once-daily dosing
+Nephrology,Losartan,ARB,Proteinuria HTN,0.7 mg/kg/day,50 mg/day,Tab liquid,PO,Once daily,Pregnancy,Hyperkalemia AKI,Monitor renal
+Nephrology,Amlodipine,CCB,HTN,0.1 mg/kg/day,10 mg/day,Tab,PO,Once daily,Severe AS,Edema flushing,Long half-life
+Nephrology,Hydralazine,Vasodilator,HTN crisis,0.75-1 mg/kg/day ÷ QID,7.5 mg/kg/day,Tab IV,PO/IV,QID,Coronary disease,Tachycardia lupus-like,Reflex tachycardia
+Nephrology,Prednisolone,Corticosteroid,Nephrotic syndrome,2 mg/kg/day (max 80 mg) taper,80 mg/day,Tab liquid,PO,Once daily,Systemic infection,Growth suppression infection,Taper slowly
+Nephrology,Cyclosporine,Calcineurin inhibitor,Nephrotic syndrome,4-6 mg/kg/day ÷ BID titrate trough 100-200 ng/mL,—,Cap susp inj,PO/IV,BID,Uncontrolled HTN malignancy,Nephrotoxicity hirsutism,Monitor trough renal
+Nephrology,Tacrolimus,Calcineurin inhibitor,Nephrotic syndrome,0.1-0.2 mg/kg/day ÷ BID titrate trough 5-15 ng/mL,—,Cap susp inj,PO/IV,BID,Severe infection,Hypertension nephrotoxicity,Monitor trough renal
+Nephrology,Mycophenolate mofetil,Immunosuppressant,Lupus nephritis,600 mg/m² BID PO max 3 g/day,3 g/day,Cap susp vial,PO/IV,BID,Pregnancy active infection,GI upset cytopenia,Pregnancy test
+Nephrology,Rituximab,Anti-CD20 mAb,Nephrotic syndrome,375 mg/m² IV weekly x1-4,—,Vial,IV,Weekly,Active infection,Infusion reaction infection,TB screen
+Nephrology,Eculizumab,Complement inhibitor,Atypical HUS,600-900 mg IV weekly then q2wk (weight-based),—,Vial,IV,q2wk,Meningococcal infection,Meningococcal infection,Vaccinate meningococcus
+Nephrology,Sevelamer,Phosphate binder,Hyperphosphatemia,Starting 400-800 mg TID with meals,13 g/day,Tab powder,PO,TID,Bowel obstruction,GI upset constipation,Take with meals
+Nephrology,Calcium acetate,Phosphate binder,Hyperphosphatemia,Starting 400-800 mg TID with meals,—,Tab powder,PO,TID,Hypercalcemia,Hypercalcemia,Monitor Ca²⁺
+Nephrology,Sodium polystyrene sulfonate,Potassium binder,Hyperkalemia,1 g/kg PO/PR q6h,—,Powder enema,PO/PR,q6h,Bowel obstruction,Constipation hypokalemia,Monitor K⁺
+Neurological,Topiramate,Anticonvulsant,Seizures migraine,1-3 mg/kg/day titrate to 30 mg/kg/day,30 mg/kg/day,Tab sprinkle cap,PO,BID,Hypersensitivity,Metabolic acidosis kidney stones,Monitor bicarb
+Neurological,Acetazolamide,Carbonic anhydrase inhibitor,Increased ICP glaucoma,5 mg/kg/dose once daily or BID,1000 mg,Tab susp,PO,Once daily or BID,Anuria liver failure,Acidosis renal stones,Monitor bicarb
+Neurological,Amitriptyline,TCA,Neuropathic pain migraine,2-11 yrs 200 mcg/kg nocte titrate max 1 mg/kg BID; ≥12 yrs 10-75 mg nocte,150 mg/day,Tab,PO,Once daily,MAOI use,Constipation dry mouth,Start low go slow
+Neurological,Clonidine,α2-agonist,ADHD sleep spasticity,1-5 mcg/kg/dose PO TID-QID max 5 mcg/kg QID,300 mcg/day,Tab patch inj,PO/IV/Transdermal,TID-QID,Hypersensitivity,Sedation hypotension,Monitor BP HR
+Neurological,Guanfacine,α2-agonist,ADHD,1 mg qHS titrate max 4 mg/day (6-12 yrs),4 mg/day,Tab ER,PO,Once daily,Hypersensitivity,Somnolence hypotension,Do not stop abruptly
+Neurological,Atomoxetine,SNRI,ADHD,<70 kg 0.5-1.4 mg/kg/day; ≥70 kg 40-100 mg/day,100 mg/day,Cap,PO,Once daily,Narrow-angle glaucoma,Hepatotoxicity suicidal ideation,Monitor LFT mood
+Neurological,Methylphenidate,CNS stimulant,ADHD,0.3 mg/kg/day ÷ BID titrate max 2 mg/kg/day (60 mg),60 mg/day,Tab ER cap liquid,PO,BID-TID,Tics psychosis,Insomnia appetite loss,Monitor growth BP
+Neurological,Midazolam,Benzodiazepine,Seizures sedation,Intranasal 0.2 mg/kg (max 10 mg) single,10 mg,Inj amp,Intranasal buccal IV,PRN,Hypersensitivity,Resp depression hypotension,Monitor airway
+Neurological,Lorazepam,Benzodiazepine,Seizures anxiety,Seizures 0.05-0.1 mg/kg IV q10-15 min prn,—,Tab liquid inj,PO/IV/PR,PRN,Severe resp insufficiency,Sedation dependence,Shorter half-life
+Neurological,Diazepam,Benzodiazepine,Seizures spasticity,Seizures 0.1-0.3 mg/kg IV/PR q15-30 min; spasticity 0.12-0.8 mg/kg/day ÷ TID-QID,—,Tab liquid inj rectal,PO/IV/PR,TID-QID,Severe resp insufficiency,Sedation dependence,Resp depression
+Neurological,Gabapentin,Anticonvulsant adjuvant,Neuropathic pain CNS irritability,Neonate 5 mg/kg/day titrate to 10 mg/kg/dose TID; 2-11 y 5-20 mg/kg TID; ≥12 y 300-3600 mg/day,3600 mg/day,Cap liquid,PO,TID,Hypersensitivity,Dizziness drowsiness ataxia,Adjust renal
+Neurological,Tizanidine,α2-agonist,Spasticity,0.05 mg/kg/day ÷ BID-TID titrate max 0.2 mg/kg/day,0.2 mg/kg/day,Tab cap,PO,TID-QID,Hypersensitivity,Drowsiness hypotension,Monitor LFT BP
+Neurological,Levetiracetam,Anticonvulsant,Seizures,10 mg/kg BID (initial) up to 25-30 mg/kg BID,—,Tab liquid inj,PO/IV,BID,Hypersensitivity,Somnolence behavioral changes,No TDM needed
+Neurological,Valproic acid,Anticonvulsant,Seizures migraine bipolar,10-15 mg/kg/day ÷ BID-TID titrate to 60 mg/kg/day,60 mg/kg/day,Cap syrup inj,PO/IV,BID-TID,Hepatic disease urea cycle,Hepatotoxicity pancreatitis,TDM narrow TI
+Neurological,Phenobarbital,Barbiturate,Neonatal seizures status,Loading 20 mg/kg IV then 3-5 mg/kg/day,—,Tab elixir inj,PO/IV,Once daily,Porphyria,Sedation ataxia,Long half-life drug interactions
+Neurological,Phenytoin,Anticonvulsant,Seizures,5 mg/kg/day ÷ BID-TID titrate to max 300 mg/day,300 mg/day,Cap susp inj,PO/IV,BID-TID,Heart block bradycardia,Gum hyperplasia ataxia,TDM drug interactions
+Neurological,Carbamazepine,Anticonvulsant,Seizures trigeminal neuralgia,10-20 mg/kg/day ÷ BID-QID max 35 mg/kg/day,35 mg/kg/day,Tab chew susp,PO,BID-QID,Bone marrow depression,Blood dyscrasias rash,Monitor CBC
+Neurological,Baclofen,GABA-B agonist,Spasticity,Oral: 0.3 mg/kg/day ÷ TID titrate 0.75-2 mg/kg/day max 40-60 mg/day; IT pump 25-200 mcg/day,60 mg/day,Tab liquid amp,PO/IT,TID-QID,None listed,Sedation hypotonia,Avoid abrupt stop
+Neurological,Lamotrigine,Anticonvulsant,Seizures Lennox-Gastaut,0.15 mg/kg/day (with VPA) 0.6 mg/kg/day (without) titrate,400 mg/day,Tab chew ODT,PO,Once or BID,Hypersensitivity,Stevens-Johnson dizziness,Slow titration with VPA
+Neurological,Fluoxetine,SSRI,Depression neuropathic pain,≥5 yrs 10 mg once daily titrate max 20 mg/day,20 mg/day,Cap liquid,PO,Once daily,MAOI use,Insomnia GI upset,Suicidality monitor
+Oncology,Thioguanine,Antimetabolite,ALL,60 mg/m²/day,—,Tab,PO,Once daily,Same as above,Same as above,Same as above
+Oncology,Filgrastim (G-CSF),Growth factor,Neutropenia,5-10 mcg/kg/day,—,Injection,SQ,Once daily,Sickle cell crisis,Bone pain,Monitor ANC
+Oncology,Dasatinib,TKI,CML,60 mg/m²/day,100 mg/day,Tab,PO,Once daily,Same as above,Effusion,Monitor pleura
+Oncology,Imatinib,TKI,CML,260-340 mg/m²/day,600 mg/day,Cap tab,PO,Once daily,Severe hepatic,Edema,Monitor LFTs
+Oncology,Rituximab,Anti-CD20 mAb,Lymphoma,375 mg/m² weekly x4,—,Vial,IV,Weekly,Active infection,Infusion reaction,Premedicate
+Oncology,Temozolomide,Alkylator,Glioma,200 mg/m²/day x5,—,Cap,PO,Days 1-5,Severe BM failure,Nausea,Empty stomach
+Oncology,Ifosfamide,Alkylator,Sarcoma,1.2-3 g/m²/day x3-5,—,Vial,IV,Days 1-3,Cystitis,Hemorrhagic cystitis,Mesna
+Oncology,Actinomycin-D,Antibiotic,Wilms tumor,45 mcg/kg/day x5,—,Vial,IV,Days 1-5,Severe BM failure,Mucositis,Max 2 mg
+Oncology,Bleomycin,Antibiotic,Hodgkin,10-15 U/m² weekly,—,Vial,IV/SC,Weekly,Pulmonary fibrosis,Pulmonary toxicity,Monitor PFTs
+Oncology,Cytarabine,Antimetabolite,AML lymphoma,100-200 mg/m²/day x7,—,Vial,IV,Days 1-7,Severe BM failure,Cytopenia,Monitor counts
+Oncology,Daunorubicin,Anthracycline,AML,45-60 mg/m² x3,—,Vial,IV,Days 1-3,Cardiomyopathy,Cardiotoxicity,Monitor EF
+Oncology,Mercaptopurine,Antimetabolite,ALL,75 mg/m²/day,—,Tab,PO,Once daily,TPMT deficiency,Hepatotoxicity,TPMT genotype
+Oncology,Asparaginase,Enzyme,ALL,6000-10000 U/m²,—,Vial,IM/IV,Weekly,Pancreatitis,Allergy coagulopathy,Monitor lipase
+Oncology,Carboplatin,Platinum,Brain tumors,AUC 5-7 q3wk,—,Vial,IV,q3wk,Severe BM failure,Thrombocytopenia,Calvert formula
+Oncology,Cisplatin,Platinum,Germ cell tumors,60-100 mg/m² q3wk,—,Vial,IV,q3wk,Renal failure,Nephrotoxicity,Hydration
+Oncology,Etoposide,Topoisomerase inhibitor,Neuroblastoma,100-150 mg/m²/day x3,—,Vial,IV,Days 1-3,Severe BM failure,Leukopenia,Monitor counts
+Oncology,Cyclophosphamide,Alkylator,Lymphoma,500-1500 mg/m²,—,Vial,IV,q3wk,Cystitis,Hemorrhagic cystitis,Mesna protection
+Oncology,Doxorubicin,Anthracycline,Sarcoma,60-75 mg/m² q3wk,—,Vial,IV,q3wk,Cardiomyopathy,Cardiotoxicity,Monitor EF
+Oncology,Vincristine,Vinca alkaloid,ALL lymphoma,1.5 mg/m² (max 2 mg),2 mg,Vial,IV,Weekly,Neuromuscular disease,Neuropathy ileus,Max 2 mg
+Oncology,Methotrexate,Antimetabolite,ALL JIA,20 mg/m² weekly,—,Tab inj,PO/SC/IV,Weekly,Renal/hepatic failure,Mucositis cytopenia,Monitor levels
+Ophthalmology,Acyclovir 3%,Antiviral,HSV keratitis,1 cm ribbon 5x/day,—,Ointment,Topical,5x/day,None,Irritation,Combine systemic
+Ophthalmology,Pilocarpine 1%,Miotic,Glaucoma,1 drop TID,—,Drops,Topical,TID,Retinal detachment,Miosis headache,Monitor vision
+Ophthalmology,Trifluridine 1%,Antiviral,HSV keratitis,1 drop q2h,—,Drops,Topical,q2h,None,Epithelial toxicity,Reduce frequency
+Ophthalmology,Timolol 0.25%,β-blocker,Glaucoma,1 drop BID,—,Drops,Topical,BID,Asthma,Bradycardia,Monitor HR
+Ophthalmology,Brimonidine 0.2%,α-agonist,Glaucoma,1 drop BID,—,Drops,Topical,BID,<2 yrs,Somnolence,Avoid in infants
+Ophthalmology,Dorzolamide 2%,CAI,Glaucoma,1 drop TID,—,Drops,Topical,TID,Sulfa allergy,Stinging,Monitor cornea
+Ophthalmology,Prednisolone acetate 1%,Corticosteroid,Uveitis,1 drop QID,—,Suspension,Topical,QID,Herpes keratitis,Cataract IOP,Taper slowly
+Ophthalmology,Dexamethasone 0.1%,Corticosteroid,Allergic conjunctivitis,1 drop QID,—,Drops,Topical,QID,Herpes keratitis,Same as above,Monitor IOP
+Ophthalmology,Olopatadine 0.1%,Antihistamine,Allergic conjunctivitis,1 drop BID,—,Drops,Topical,BID,None,Headache,Safe long-term
+Ophthalmology,Ketotifen 0.025%,Antihistamine,Allergic conjunctivitis,1 drop BID,—,Drops,Topical,BID,None,Burning,OTC available
+Ophthalmology,Moxifloxacin 0.5%,Fluoroquinolone,Bacterial keratitis,1 drop q1h initially,—,Drops,Topical,q1h,None,Burning,Reduce frequency
+Ophthalmology,Tobramycin 0.3%,Aminoglycoside,Bacterial conjunctivitis,1 drop q4h,—,Drops,Topical,q4h,None,Burning,Monitor toxicity
+Ophthalmology,Erythromycin 0.5%,Macrolide,Neonatal conjunctivitis,1 cm ribbon QID,—,Ointment,Topical,QID,None,Irritation,Prophylaxis neonates
+Ophthalmology,Gentamicin 0.3%,Aminoglycoside,Bacterial keratitis,1 drop q4h,—,Drops,Topical,q4h,None,Nephro/oto,Avoid prolonged
+Ophthalmology,Natamycin 5%,Antifungal,Fungal keratitis,1 drop q1h,—,Suspension,Topical,q1h,None,Irritation,Gold standard
+Ophthalmology,Atropine 1%,Cycloplegic,Refraction,1 drop OD x1-2,—,Drops,Topical,Single,Narrow angle,Tachycardia fever,Observe 30 min
+Ophthalmology,Cyclopentolate 1%,Cycloplegic,Refraction,1 drop OD x1-2,—,Drops,Topical,Single,Narrow angle,Blurred vision,Watch for CNS
+Ophthalmology,Tropicamide 1%,Mydriatic,Fundus exam,1 drop OD x1,—,Drops,Topical,Single,Narrow angle,Photophobia,Short acting
+Ophthalmology,Phenylephrine 2.5%,Mydriatic,Fundus exam,1 drop OD x1,—,Drops,Topical,Single,HTN,Hypertension,Monitor BP
+Ophthalmology,Latanoprost,Prostaglandin,Glaucoma,1 drop QHS,—,Drops,Topical,QHS,Herpes keratitis,Iris pigmentation,Monitor IOP
+Otolaryngology,Racemic epinephrine,Sympathomimetic,Croup stridor,0.5 mL/kg 1:1000 in 3 mL NS nebulized,5 mL,Neb solution,Inh,q2h PRN,None,Tachycardia rebound,Observe ≥2 h
+Otolaryngology,Amoxicillin,Penicillin,Acute otitis media,45 mg/kg/day ÷ BID,1 g BID,Susp chew tab,PO,BID,Penicillin allergy,Rash diarrhea,10-day course
+Otolaryngology,Amoxicillin-Clavulanate,Penicillin + β-lactamase,Recurrent AOM sinusitis,40-50 mg/kg/day ÷ BID,2 g BID amoxicillin,Susp tab,PO,BID,Same as above,Diarrhea rash,Monitor LFT
+Otolaryngology,Cefdinir,3rd gen oral cephalosporin,AOM sinusitis,14 mg/kg once daily (max 600 mg),600 mg/day,Susp cap,PO,Once daily,Cephalosporin allergy,Diarrhea rash,5-day course
+Otolaryngology,Azithromycin,Macrolide,AOM pertussis,10 mg/kg once daily ×3 days,500 mg/day,Susp tab,PO,Once daily,Macrolide allergy,QT GI upset,Take 1 h before food
+Otolaryngology,Prednisolone,Corticosteroid,Severe tonsillitis croup,1-2 mg/kg/day ×3-5 days,60 mg/day,Liquid tab,PO,Once daily,Systemic infection,Mood changes appetite,No taper ≤7 days
+Otolaryngology,Dexamethasone,Corticosteroid,Croup epiglottitis,0.15-0.6 mg/kg PO/IM once,10 mg,Tab liquid inj,PO/IM,Single,Same as above,Minimal short-term,Long half-life
+Otolaryngology,Epinephrine 1:1000,Sympathomimetic,Anaphylaxis laryngeal edema,0.01 mg/kg IM,0.5 mg,Auto-injector amp,IM,Repeat q5-15 min,None,Tachycardia tremor,Call EMS
+Otolaryngology,Ipratropium bromide,Anticholinergic,Rhinitis secretions,250-500 µg neb q6-8h,—,Neb solution,Inh,q6-8h,Soy allergy,Dry mouth cough,Watch technique
+Otolaryngology,Ondansetron,5-HT3 antagonist,PONV vertigo,0.15 mg/kg IV q8h,16 mg,Vial ODT,IV/PO,q8h,Hypersensitivity,Headache constipation QT,Monitor ECG
+Otolaryngology,Loratadine,Non-sedating antihistamine,Allergic rhinitis,2-5 yrs 5 mg ≥6 yrs 10 mg daily,10 mg/day,Syrup tab,PO,Once daily,Hypersensitivity,Headache GI upset,Non-sedating
+Otolaryngology,Cetirizine,Non-sedating antihistamine,Allergic rhinitis urticaria,6-23 mo 2.5 mg 2-5 y 5 mg ≥6 y 10 mg daily,10 mg/day,Susp tab,PO,Once daily,Hypersensitivity,Drowsiness GI upset,Less sedation
+Otolaryngology,Mometasone,Nasal steroid,Allergic rhinitis,2 sprays/nostril once daily >12 yrs,—,Nasal spray,Inh,Once daily,Nasal infection,Nosebleed epistaxis,Rinse nozzle
+Otolaryngology,Fluticasone,Nasal steroid,Allergic rhinitis,1 spray/nostril once daily >4 yrs,—,Nasal spray,Inh,Once daily,Same as above,Same as above,Same as above
+Otolaryngology,Budesonide,Nasal steroid,Allergic rhinitis,1 spray/nostril once daily >6 yrs,—,Nasal spray,Inh,Once daily,Same as above,Same as above,Same as above
+Otolaryngology,Xylometazoline,Decongestant,Nasal congestion,2-6 yrs 1 spray/nostril BID >6 yrs 2 sprays BID,—,Nasal spray,Inh,BID,Hypertension,Rebound congestion,Limit ≤5 days
+Otolaryngology,Oxymetazoline,Decongestant,Nasal congestion,2-6 yrs 1 spray/nostril BID >6 yrs 2 sprays BID,—,Nasal spray,Inh,BID,Same as above,Same as above,Same as above
+Otolaryngology,Saline nasal spray,Isotonic wash,Congestion crusting,2-6 sprays/nostril PRN,—,Spray,Inh,PRN,None,None,OTC safe
+Otolaryngology,Carbamide peroxide,Cerumenolytic,Cerumen impaction,5-10 drops BID ×3-4 days,—,Drops,Ear,BID,Perforated TM,Otalgia irritation,Flush after softening
+Otolaryngology,Glycerin + lidocaine,Topical otic,Otalgia,2-3 drops PRN,—,Drops,Ear,PRN,Perforated TM,None,OTC
+Pain_Management_Anesthesia,Morphine,Opioid,Severe pain,0.05-0.1 mg/kg IV q2-4h,—,Ampule,IV,q2-4h,Respiratory depression,Hypotension resp depression,Monitor RR BP
+Pain_Management_Anesthesia,Ketorolac,NSAID,Moderate-severe pain,0.5-1 mg/kg IV q6h (max 5 days),30 mg IV,Tab inj,PO/IV,q6h,Same as above,Same as above,Max 5 days
+Pain_Management_Anesthesia,Naproxen,NSAID,Pain fever,5-10 mg/kg q12h,1000 mg/day,Tab susp,PO,q12h,Same as above,Same as above,Same as above
+Pain_Management_Anesthesia,Ibuprofen,NSAID,Pain fever,5-10 mg/kg q6-8h,40 mg/kg/day,Tab susp,PO,q6-8h,NSAID allergy ulcer,GI bleed renal toxicity,Take with food
+Pain_Management_Anesthesia,Acetaminophen,Analgesic antipyretic,Pain fever,10-15 mg/kg q4-6h,75 mg/kg/day,Tab liquid supp,PO/PR,q4-6h,Hepatic failure,Hepatotoxicity,Monitor total daily
+Pain_Management_Anesthesia,Etomidate,Induction agent,Rapid sequence intubation,0.2-0.3 mg/kg IV,—,Vial,IV,Single,Adrenal insufficiency,Adrenal suppression myoclonus,Single dose
+Pain_Management_Anesthesia,Isoflurane,Inhalational anesthetic,General anesthesia,1-2% inhaled,—,Liquid,Inh,Continuous,Same as above,Same as above,Same as above
+Pain_Management_Anesthesia,Sevoflurane,Inhalational anesthetic,General anesthesia,2-3% inhaled,—,Liquid,Inh,Continuous,Malignant hyperthermia,Malignant hyperthermia,Trigger-free machine
+Pain_Management_Anesthesia,Nitrous oxide,Inhalational anesthetic,Procedural sedation,50-70% in O₂,—,Cylinder,Inh,PRN,Air trapping (pneumothorax),Nausea vomiting,Elimination rapid
+Pain_Management_Anesthesia,Ropivacaine,Local anesthetic,Regional blocks,Max 3-4 mg/kg,—,Ampule,SC/IV/Topical,Infiltration,Same as above,Same as above,Same as above
+Pain_Management_Anesthesia,Bupivacaine,Local anesthetic,Regional blocks,Max 2-3 mg/kg,—,Ampule,SC/IV/Topical,Infiltration,Same as above,Same as above,Same as above
+Pain_Management_Anesthesia,Lidocaine,Local anesthetic,Regional blocks,Max 3-5 mg/kg (0.3 mL/kg 1%),—,Ampule,SC/IV/Topical,Infiltration,Hypersensitivity,Seizures arrhythmia,Monitor ECG
+Pain_Management_Anesthesia,Dexmedetomidine,α2-agonist,Sedation ICU,0.5-1 mcg/kg loading then 0.2-0.7 mcg/kg/h,—,Vial,IV,Continuous,Severe bradycardia,Bradycardia hypotension,Monitor ECG
+Pain_Management_Anesthesia,Midazolam,Benzodiazepine,Sedation anxiolysis,0.05-0.1 mg/kg IV q2-4h,—,Ampule,IV,q2-4h,Severe hypotension,Sedation respiratory depression,Monitor RR BP
+Pain_Management_Anesthesia,Propofol,General anesthetic,Procedural sedation,1-2 mg/kg IV bolus then 50-200 mcg/kg/min,—,Vial,IV,Continuous,Allergy to egg lecithin,Hypotension apnea,Airway ready
+Pain_Management_Anesthesia,Ketamine,Dissociative anesthetic,Procedural sedation,1-2 mg/kg IV 4-5 mg/kg IM,—,Vial,IV/IM,Single,Increased ICP,Hypertension laryngospasm,Airway ready
+Pain_Management_Anesthesia,Tramadol,Opioid,Mild-moderate pain,1-2 mg/kg q6h,100 mg/dose,Tab liquid,PO,q6h,Seizure history,Respiratory depression seizures,Monitor respiration
+Pain_Management_Anesthesia,Codeine,Opioid,Mild-moderate pain,0.5-1 mg/kg q4-6h,60 mg/dose,Syrup tab,PO,q4-6h,Same as above,Same as above,Risk apnea <12 yrs
+Pain_Management_Anesthesia,Oxycodone,Opioid,Moderate-severe pain,0.1-0.2 mg/kg q4-6h,10 mg/dose,Syrup tab,PO,q4-6h,Same as above,Same as above,Same as above
+Pain_Management_Anesthesia,Hydromorphone,Opioid,Severe pain,0.01-0.02 mg/kg IV q4-6h,—,Ampule,IV,q4-6h,Same as above,Same as above,Monitor respiration
+Pain_Management_Anesthesia,Fentanyl,Opioid,Severe pain procedural,1-2 mcg/kg IV q2-4h,—,Ampule,IV,q2-4h,Same as above,Same as above,Short acting
+Psychiatry_Behavioral,Lisdexamfetamine,Pro-drug stimulant,ADHD,30-70 mg once daily (≥6 yrs),70 mg/day,Cap,PO,Once daily,Same as methylphenidate,Same as methylphenidate,Once-daily
+Psychiatry_Behavioral,Clonidine,α2-agonist,ADHD sleep anxiety,1-5 mcg/kg/dose PO TID-QID max 5 mcg/kg QID,300 mcg/day,Tab patch inj,PO/IV/Transdermal,TID-QID,Same as above,Same as above,Monitor BP HR
+Psychiatry_Behavioral,Guanfacine,α2-agonist,ADHD,1 mg qHS titrate max 4 mg/day (6-12 yrs),4 mg/day,Tab ER,PO,Once daily,Hypersensitivity,Somnolence hypotension,Do not stop abruptly
+Psychiatry_Behavioral,Atomoxetine,SNRI,ADHD,<70 kg 0.5-1.4 mg/kg/day ≥70 kg 40-100 mg/day,100 mg/day,Cap,PO,Once daily,Narrow-angle glaucoma,Hepatotoxicity suicidal ideation,Monitor LFT mood
+Psychiatry_Behavioral,Methylphenidate,CNS stimulant,ADHD,0.3 mg/kg/day ÷ BID titrate max 2 mg/kg/day (60 mg),60 mg/day,Tab ER cap liquid,PO,BID-TID,Tics psychosis,Insomnia appetite loss,Monitor growth BP
+Psychiatry_Behavioral,Buspirone,Anxiolytic,Anxiety,5-10 mg BID titrate max 60 mg,60 mg/day,Tab,PO,BID,MAOI,Dizziness nausea,2-4 wk onset
+Psychiatry_Behavioral,Imipramine,TCA,Enuresis ADHD,25 mg nightly (6-12 yrs) titrate max 75 mg,75 mg/day,Tab,PO,QHS,MAOI cardiac,Anticholinergic cardiotoxicity,Monitor ECG
+Psychiatry_Behavioral,Clomipramine,TCA,OCD,10 mg/day titrate max 3 mg/kg/day (max 200 mg),200 mg/day,Tab,PO,BID-TID,Same as above,Same as above,Monitor ECG
+Psychiatry_Behavioral,Fluvoxamine,SSRI,OCD,8-17 yrs 25 mg nightly titrate max 200 mg,200 mg/day,Tab,PO,QHS,MAOI pimozide,GI upset activation,Monitor mood
+Psychiatry_Behavioral,Duloxetine,SNRI,Anxiety depression,≥7 yrs 30 mg once daily titrate max 60 mg,60 mg/day,Cap,PO,Once daily,MAOI,Hepatotoxicity suicidal ideation,Monitor LFT
+Psychiatry_Behavioral,Hydroxyzine,Anxiolytic,Anxiety sedation,0.5-1 mg/kg q6h,100 mg/day,Syrup tab,PO,q6h,Sedating antihistamines,Sedation anticholinergic,Short-term use
+Psychiatry_Behavioral,Melatonin,Hormone,Sleep disorders,1-3 mg 30 min before bedtime,10 mg/day,Tab liquid,PO,Once daily,Hypersensitivity,Daytime drowsiness,Short-term use
+Psychiatry_Behavioral,Lamotrigine,Mood stabilizer,Bipolar seizures,0.15 mg/kg/day (with VPA) 0.6 mg/kg/day (without) titrate,400 mg/day,Tab chew,PO,Once or BID,Hypersensitivity,Rash Stevens-Johnson,Slow titration
+Psychiatry_Behavioral,Valproate,Mood stabilizer,Bipolar seizures,10-15 mg/kg/day ÷ BID titrate 60 mg/kg/day,60 mg/kg/day,Tab sprinkles,PO,BID,Hepatic failure urea cycle,Hepatotoxicity pancreatitis,TDM weight gain
+Psychiatry_Behavioral,Lithium,Mood stabilizer,Bipolar,10-40 mg/kg/day ÷ BID titrate trough 0.8-1.2 mEq/L,—,Tab liquid,PO,BID,Renal failure,Polyuria tremor,Monitor lithium levels renal
+Psychiatry_Behavioral,Quetiapine,Atypical antipsychotic,Bipolar,25-400 mg BID titrate (≥10 yrs),800 mg/day,Tab,PO,BID,Same as above,Same as above,Monitor glucose lipids
+Psychiatry_Behavioral,Olanzapine,Atypical antipsychotic,Bipolar,2.5-10 mg once daily (≥13 yrs),20 mg/day,Tab,PO,Once daily,Same as above,Same as above,Monitor glucose lipids
+Psychiatry_Behavioral,Aripiprazole,Atypical antipsychotic,Autism bipolar,5-15 mg once daily (≥6 yrs),30 mg/day,Tab liquid,PO,Once daily,Same as above,Same as above,Monitor glucose lipids
+Psychiatry_Behavioral,Risperidone,Atypical antipsychotic,Autism bipolar,0.25-1 mg BID titrate max 3 mg/day (5-17 yrs),3 mg/day,Tab liquid,PO,BID,Dementia,EPS weight gain,Monitor glucose lipids
+Psychiatry_Behavioral,Paroxetine,SSRI,OCD,≥6 yrs 10 mg once daily titrate max 40 mg,40 mg/day,Tab liquid,PO,Once daily,Same as above,Same as above,Withdrawal symptoms
+Psychiatry_Behavioral,Escitalopram,SSRI,Anxiety depression,12-17 yrs 10 mg once daily titrate max 20 mg,20 mg/day,Tab liquid,PO,Once daily,Same as above,Same as above,Monitor growth
+Psychiatry_Behavioral,Fluoxetine,SSRI,Depression OCD,≥5 yrs 10 mg once daily titrate max 20 mg/day,20 mg/day,Cap liquid,PO,Once daily,Same as above,Same as above,Long half-life
+Psychiatry_Behavioral,Sertraline,SSRI,OCD depression,6-12 yrs 25 mg once daily titrate max 200 mg,200 mg/day,Tab liquid,PO,Once daily,MAOI pimozide,Activation suicidal ideation,Monitor mood
+Psychiatry_Behavioral,Dexmethylphenidate,Stimulant,ADHD,2.5-10 mg BID (≥6 yrs),20 mg/day,Tab ER,PO,BID,Same as above,Same as above,Monitor growth
+Respiratory,Ipratropium bromide,Anticholinergic,Asthma exacerbation,250–500 µg neb q20min x3 then PRN,2 mg/day,Neb solution,Inh,q6-8h,Soy lecithin allergy,Dry mouth cough,Watch technique
+Respiratory,Salmeterol,LABA,Asthma maintenance,50 µg BID (≥4 yrs),100 µg/day,DPI,Inh,BID,Asthma monotherapy,Tremor palpitations,Always with ICS
+Respiratory,Ciclesonide,ICS,Asthma maintenance,80-160 µg daily (4-11 yrs),160 µg/day,MDI,Inh,Once daily,Same as above,Same as above,Lower systemic exposure
+Respiratory,Albuterol,SABA,Asthma bronchospasm,1-2 puffs (100-200 µg) MDI q4h PRN,8 puffs/day,MDI neb,Inh,q4h PRN,Hypersensitivity,Tremor tachycardia,Use spacer rinse mouth
+Respiratory,Beclomethasone,ICS,Asthma maintenance,50-100 µg BID (5-11 yrs),400 µg/day,MDI,Inh,BID,Hypersensitivity,Oral thrush,Use spacer
+Respiratory,Fluticasone,ICS,Asthma maintenance,50–200 µg BID (age <12 yrs),400 µg/day,MDI DPI,Inh,BID,Acute bronchospasm,Thrush dysphonia,Rinse mouth monitor growth
+Respiratory,Budesonide (inhaled),ICS,Asthma maintenance,200–400 µg daily (6 m–12 y),800 µg/day,Inh susp DPI,Inh,Once or BID,Hypersensitivity,Same as fluticasone,MART regimen possible
+Respiratory,Montelukast,LTRA,Asthma allergic rhinitis,4 mg (<6 yrs) 5 mg (6-14 yrs) qHS,5 mg/day,Chew tab granules,PO,qHS,Hypersensitivity,Neuropsychiatric events,Warn parents
+Respiratory,Prednisolone,Oral corticosteroid,Asthma exacerbation,1–2 mg/kg/day (max 40–60 mg) x3-5 days,60 mg/day,Tab liquid,PO,Once daily,Systemic fungal infection,Mood appetite changes,No taper ≤7 days
+Respiratory,Prednisone,Oral corticosteroid,Asthma exacerbation,1–2 mg/kg/day (max 60 mg) x3-5 days,60 mg/day,Tab,PO,Once daily,Same as prednisolone,Same as prednisolone,Prodrug
+Respiratory,Methylprednisolone,IV corticosteroid,Severe asthma,1–2 mg/kg q6h (max 60–80 mg),80 mg/dose,Vial,IV,q6h,Same as above,Hypertension hyperglycemia,ICU use
+Respiratory,Dexamethasone,Corticosteroid,Croup,0.15–0.6 mg/kg PO once (max 10 mg),10 mg,Tab liquid,PO,Single,Systemic fungal infection,Minimal short-term,Long half-life
+Respiratory,Epinephrine,Sympathomimetic,Anaphylaxis croup,0.01 mg/kg IM 1:1000 (max 0.5 mg),0.5 mg,Auto-injector amp,IM,Repeat q5-15 min,None,Palpitations tremor,Call EMS
+Respiratory,Cromolyn sodium,Mast-cell stabilizer,Asthma prophylaxis,2 puffs MDI QID (1.6 mg),—,MDI neb,Inh,QID,Hypersensitivity,Cough throat irritation,Takes weeks
+Respiratory,Omalizumab,Anti-IgE mAb,Severe allergic asthma,75–375 mg SC q2-4 wk (weight & IgE based),375 mg,Pre-filled syringe,SC,q2-4 wk,Hypersensitivity,Anaphylaxis URI,Prefilled syringe
+Respiratory,Dornase alfa,Recombinant DNase,Cystic fibrosis,2.5 mg neb once daily,—,Ampule,Neb,Once daily,Hypersensitivity,Hoarseness rash,Special nebulizer
+Respiratory,Tobramycin inhaled,Aminoglycoside,CF Pseudomonas,300 mg neb BID 28 days on/off,300 mg,Vial,Neb,BID,Anuria ototoxicity,Tinnitus cough,Monitor levels
+Respiratory,Formoterol,LABA,Asthma maintenance,4.5-9 µg BID (≥6 yrs),36 µg/day,DPI,Inh,BID,Asthma monotherapy,Same as salmeterol,MART only with ICS
+Respiratory,Aztreonam inhaled,Monobactam,CF Pseudomonas,75 mg neb TID 28 days on/off,75 mg,Vial,Neb,TID,Hypersensitivity,Cough wheeze,Special nebulizer
+Respiratory,Levalbuterol,SABA,Asthma bronchospasm,0.31-1.25 mg neb q6-8h (≥6 yrs),1.25 mg,Neb solution,Inh,q6-8h,Same as albuterol,Same as albuterol,More expensive
+Rheumatology,Leflunomide,DMARD,Polyarticular JIA,20 mg once daily (<40 kg) 20-30 mg (≥40 kg),30 mg/day,Tab,PO,Once daily,Severe hepatic,Diarrhea hepatotoxicity,Cholestyramine washout
+Rheumatology,Methotrexate,DMARD,JIA leukemia,10-15 mg/m² once weekly PO/SC,—,2.5 mg tab inj,PO/SC,Weekly,Severe renal/hepatic,Stomatitis cytopenia hepatotoxicity,Monitor CBC LFT folate
+Rheumatology,Penicillamine,Chelator,JIA Wilson,5-10 mg/kg/day titrate max 20 mg/kg,1.5 g/day,Cap,PO,QD-BID,Penicillin allergy renal,Proteinuria rash marrow suppression,Monitor CBC urinalysis
+Rheumatology,Cyclosporine,Calcineurin inhibitor,SLE nephritis,2.5-4 mg/kg/day ÷ BID titrate trough 100-200 ng/mL,—,Cap susp inj,PO/IV,BID,Uncontrolled HTN malignancy,Nephrotoxicity hirsutism,Monitor trough BP
+Rheumatology,Mycophenolate mofetil,Immunosuppressant,Lupus nephritis,600 mg/m² BID PO max 3 g/day,3 g/day,Cap susp vial,PO/IV,BID,Pregnancy active infection,GI upset cytopenia,Pregnancy test
+Rheumatology,Tacrolimus,Calcineurin inhibitor,SLE nephritis,0.1-0.2 mg/kg/day ÷ BID titrate trough 5-15 ng/mL,—,Cap susp inj,PO/IV,BID,Severe infection,Hypertension nephrotoxicity,Monitor trough
+Rheumatology,Rituximab,Anti-CD20 mAb,JIA vasculitis,750 mg/m² IV x2 doses 2 wks apart,—,Vial,IV,Two infusions 2 wks apart,Hepatitis B active,Infusion reaction infection,Hep B screen
+Rheumatology,Anakinra,IL-1 receptor antagonist,SJIA autoinflammatory,1-2 mg/kg SC daily max 100 mg,100 mg/day,Prefilled syringe,SC,Daily,Active infection,Injection site infection,Monitor infection
+Rheumatology,Canakinumab,IL-1β inhibitor,SJIA CAPS,4 mg/kg SC q4wk max 300 mg,300 mg,Prefilled syringe,SC,q4wk,Active infection,Injection site infection,Monitor infection
+Rheumatology,Tocilizumab,IL-6 inhibitor,JIA systemic,IV 8 mg/kg q4wk (>2 yrs) or SC 162 mg q2wk (>30 kg),12 mg/kg IV,Vial prefilled,IV/SC,q2-4wk,Active infection,Infection elevated LFT,Monitor CBC LFT
+Rheumatology,Prednisolone,Corticosteroid,JIA flare uveitis,1-2 mg/kg/day max 60 mg,60 mg/day,Tab liquid,PO,Once daily,Systemic infection,Same as above,Taper slowly
+Rheumatology,Ibuprofen,NSAID,JIA fever pain,5-10 mg/kg q6-8h,40 mg/kg/day,Tab susp,PO,Q6-8H,Same as naproxen,Same as naproxen,Same as naproxen
+Rheumatology,Naproxen,NSAID,JIA pain fever,10 mg/kg BID JIA; 5-10 mg/kg q8-12h pain,1000 mg/day,Tab susp,PO,BID-QID,Active ulcer severe heart/kidney,GI bleed renal toxicity,Take with food
+Rheumatology,Hydroxychloroquine,Antimalarial DMARD,JIA SLE,5-7 mg/kg/day max 400 mg,400 mg/day,Tab,PO,Once daily,Retinal disease,Retinopathy GI upset,Annual eye exam
+Rheumatology,Sulfasalazine,DMARD,JIA IBD,JIA 30-50 mg/kg/day ÷ BID max 2 g,2 g/day,Tab,PO,BID,Sulfa hypersensitivity,Blood dyscrasias hepatitis,Monitor CBC LFT
+Rheumatology,Infliximab,Anti-TNF mAb,JIA,3-6 mg/kg IV wk0 2 6 then q8wk,10 mg/kg,Vial,IV,q8wk,Active infection CHF,Infusion reaction infection,TB screen
+Rheumatology,Etanercept,TNF inhibitor,JIA,0.8 mg/kg SC weekly max 50 mg,50 mg/week,Pre-filled syringe,SC,Weekly,Active infection including TB,Injection site URI,Monitor infection
+Rheumatology,Adalimumab,Anti-TNF mAb,JIA Crohn ulcerative colitis,JIA 20 mg EOW (15-30 kg) 40 mg EOW (>30 kg); Crohn 160 mg wk0 80 mg wk2 then 40 mg EOW,40 mg/0.8 mL,Prefilled pen,SC,EOW,Hypersensitivity active infection,Injection site infection malignancy,TB screen
+Rheumatology,Abatacept,T-cell modulator,JIA uveitis,IV <75 kg 10 mg/kg 75-100 kg 750 mg >100 kg 1000 mg q4wk; SC 50-125 mg weekly,1000 mg/dose IV,Vial prefilled syringe,IV/SC,q4wk (IV) or weekly (SC),Hypersensitivity active infection,Infusion reaction infection,TB screen
+Rheumatology,Colchicine,Anti-gout,PFAPA Behçet,0.3-0.6 mg BID (<5 yrs) 0.6-1.2 mg/day (≥5 yrs),1.2 mg/day,Tab,PO,BID,Severe renal/hepatic,GI upset myopathy,Monitor CYP3A4
+Rheumatology,Azathioprine,Immunosuppressant,Lupus IBD,1-2 mg/kg/day max 2.5 mg/kg,2.5 mg/kg/day,Tab,PO,Once daily,TPMT deficiency,Same as above,TPMT genotype
+Toxicology_Emergency,Digoxin immune Fab,Digoxin antidote,Digoxin toxicity,1 vial binds 0.5 mg digoxin (dose = digoxin ingested ÷ 0.5),—,Vial,IV,Single,None,Allergic reaction,Monitor K⁺
+Toxicology_Emergency,Naloxone,Opioid antagonist,Opioid overdose,0.01-0.1 mg/kg IV/IM q2-3 min,2 mg/dose,Auto-injector amp,IV/IM/IN,Repeat q2-3 min,None,Withdrawal precipitate,Short half-life
+Toxicology_Emergency,Flumazenil,Benzodiazepine antagonist,BZD overdose,0.01 mg/kg IV (max 0.2 mg) q1min,1 mg,Vial,IV,q1min,Seizure history,Seizures arrhythmia,Short half-life
+Toxicology_Emergency,Activated charcoal,Adsorbent,Poisoning,1 g/kg (max 50 g),50 g,Suspension,PO,Single,Intestinal obstruction,Aspiration,constipation
+Toxicology_Emergency,N-Acetylcysteine,Antidote,Acetaminophen poisoning,Loading 150 mg/kg IV then 50 mg/kg ×4h then 100 mg/kg ×16h,—,Vial,PO/IV,Loading then continuous,None,Anaphylaxis vomiting,Smell rotten eggs
+Toxicology_Emergency,Atropine,Anticholinergic,Organophosphate,0.02 mg/kg IV q5-10 min,2 mg,Vial,IV,q5-10 min,Narrow-angle glaucoma,Tachycardia fever,Repeat until dry
+Toxicology_Emergency,Pralidoxime,Cholinesterase reactivator,Organophosphate,20-50 mg/kg IV over 15-30 min,1 g,Vial,IV,q1h,None,Hypertension dizziness,With atropine
+Toxicology_Emergency,Dimercaprol,Chelator,Lead arsenic,3-5 mg/kg IM q4h ×2 days,—,Ampule,IM,q4h,Iron overload,Hypertension nephrotoxicity,Deep IM
+Toxicology_Emergency,EDTA,Calcium disodium chelator,Lead >45 µg/dL,1000 mg/m²/day IV infusion,—,Vial,IV,Once daily,Renal failure,Nephrotoxicity,Monitor renal
+Toxicology_Emergency,Succimer,Chelator,Lead 20-45 µg/dL,10 mg/kg PO q8h ×5 days then q12h ×14 days,—,Cap,PO,q8h then q12h,Hepatic failure,GI upset rash,Monitor LFT
+Toxicology_Emergency,Deferoxamine,Iron chelator,Iron overdose,15 mg/kg/h IV max 6 g/day,6 g/day,Vial,IV,Continuous,Renal failure,Ototoxicity retinopathy,Monitor ferritin
+Toxicology_Emergency,Methylene blue,Oxidizing agent,Methemoglobinemia,1-2 mg/kg IV over 5 min,—,Ampule,IV,Single,G6PD deficiency,Hemolysis,Monitor SpO2
+Toxicology_Emergency,Hydroxocobalamin,Vitamin B12 precursor,Cyanide poisoning,70 mg/kg IV over 15 min,5 g,Vial,IV,Single,None,Red discoloration urine skin,Monitor BP
+Toxicology_Emergency,Sodium bicarbonate,Alkalinizing agent,TCA acidosis,1-2 mEq/kg IV titrate,—,Ampule,IV,PRN,Alkalosis,Alkalosis hypokalemia,Monitor ABG
+Toxicology_Emergency,Lipid emulsion 20%,Lipid sink,Local anesthetic toxicity,1.5 mL/kg IV bolus then 0.25 mL/kg/min,—,Bag,IV,Bolus then infusion,None,Fat overload pancreatitis,Stop bupivacaine
+Toxicology_Emergency,Fomepizole,Alcohol dehydrogenase inhibitor,Methanol ethylene glycol,Loading 15 mg/kg IV then 10 mg/kg q12h,—,Vial,IV,q12h,None,Headache nausea,Monitor ethanol levels
+Toxicology_Emergency,Ethanol,Competitive inhibitor,Methanol ethylene glycol,Loading 600 mg/kg IV then 100-150 mg/kg/h,—,Vial,IV,Continuous,Hypoglycemia,Hypoglycemia intoxication,Monitor glucose
+Toxicology_Emergency,Calcium gluconate,Electrolyte,Calcium channel blocker,60-100 mg/kg IV over 5-10 min,—,Ampule,IV,PRN,Hypercalcemia,Bradycardia arrhythmia,Monitor ECG
+Toxicology_Emergency,Glucagon,Incretin,β-blocker CCB overdose,50-150 mcg/kg IV over 1 min,10 mg,Vial,IV,PRN,Insulinoma,Hyperglycemia vomiting,Monitor glucose
+Toxicology_Emergency,Dextrose 50%,Carbohydrate,Hypoglycemia,0.5-1 g/kg IV (1-2 mL/kg),—,Ampule,IV,PRN,Hyperglycemia,Hyperglycemia,Monitor glucose
+Toxicology_Emergency,Insulin,Short-acting,Hyperkalemia,0.1 U/kg IV with 1 g/kg dextrose,—,Vial,IV,Bolus,None,Hypoglycemia,Monitor glucose
+Toxicology_Emergency,Epinephrine,Sympathomimetic,Anaphylaxis cardiac arrest,0.01 mg/kg IV (0.1 mL/kg 1:10000),1 mg,Vial,IV,Repeat q3-5 min,None,Tachycardia arrhythmia,Follow PALS
+Vaccinology,Hepatitis B,Recombinant,Hepatitis B,0.5 mL IM at birth 1-2 mo 6-18 mo,0.5 mL,Vial,IM,3 doses,Anaphylaxis,Local fever,Check schedule
+Vaccinology,Hepatitis A,Inactivated,Hepatitis A,0.5 mL IM at 12-23 mo and 6-12 mo later,0.5 mL,Vial,IM,2 doses,Anaphylaxis,Local fever,Travelers
+Vaccinology,PCV13,Conjugate,Pneumococcal,0.5 mL IM at 2 4 6 12-15 mo,0.5 mL,Vial,IM,4 doses,Anaphylaxis,Local fever,High-risk 23-valent at ≥2 yrs
+Vaccinology,Rotavirus,Live oral,Rotavirus,2 mL PO at 2 4 mo (RV1) or 2 4 6 mo (RV5),—,Vial,PO,2-3 doses,Intussusception history,Fussiness diarrhea,Give on schedule
+Vaccinology,Influenza,Inactivated,Seasonal influenza,0.25-0.5 mL IM annually,—,Vial,IM,Annually,Egg allergy severe,Local fever,High-dose for ≥3 yrs
+Vaccinology,HPV,Recombinant,HPV cancers,9-14 yrs 0.5 mL IM 2 doses 0 6-12 mo,0.5 mL,Vial,IM,2 doses,Anaphylaxis,Local fever,15-26 yrs 3 doses
+Vaccinology,Meningococcal conjugate,Meningococcal,Meningococcal,0.5 mL IM at 11-12 yrs booster 16 yrs,0.5 mL,Vial,IM,2 doses,Anaphylaxis,Local fever,High-risk earlier
+Vaccinology,Varicella,Live attenuated,Chickenpox,0.5 mL SQ at 12-15 mo 4-6 yrs,0.5 mL,Vial,SQ,2 doses,Same as MMR,Fever rash,Same as above
+Vaccinology,Tdap,Toxoid,Tetanus diphtheria pertussis booster,0.5 mL IM at 11-12 yrs,0.5 mL,Vial,IM,Once,Anaphylaxis,Local fever,Every 10 yrs
+Vaccinology,MMR,Live attenuated,Measles mumps rubella,0.5 mL SQ at 12-15 mo 4-6 yrs,0.5 mL,Vial,SQ,2 doses,Pregnancy immunosuppression,Fever rash,Separate by 28 days
+Vaccinology,IPV,Inactivated polio,Polio,0.5 mL IM/SQ at 2 4 6-18 mo 4-6 yrs,0.5 mL,Vial,IM/SQ,4 doses,Anaphylaxis,Local fever,Check schedule
+Vaccinology,Hib,Conjugate,Haemophilus influenzae b,0.5 mL IM at 2 4 6 12-15 mo,0.5 mL,Vial,IM,4 doses,Anaphylaxis,Local fever,Same as above
+Vaccinology,DTaP,Toxoid + acellular pertussis,Diphtheria tetanus pertussis,0.5 mL IM at 2 4 6 15-18 mo 4-6 yrs,0.5 mL,Vial,IM,5 doses,Encephalopathy <7 days post-prev,Local fever fussiness,Shake well
+Vaccinology,Japanese encephalitis,Inactivated,JE,0.5 mL IM 2 doses 28 days apart,,,,,,,
