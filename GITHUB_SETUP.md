@@ -90,7 +90,7 @@ tinydose-pwa/
 │   ├── 🖼️ pwa-192x192.png         # App icon (192x192)
 │   ├── 🖼️ pwa-512x512.png         # App icon (512x512)  
 │   ├── 🖼️ apple-touch-icon.png    # iOS home screen icon
-│   ├── 📊 pediatric_drugs.csv     # Complete drug database (444 medications)
+│   ├── 📊 pediatric_drugs.csv     # Complete drug database (509 medications)
 │   └── 📱 manifest.webmanifest    # PWA manifest
 ├── 📁 src/                        # Source code
 │   ├── 📁 components/             # React components

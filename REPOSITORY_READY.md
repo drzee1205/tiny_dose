@@ -42,7 +42,7 @@ tinydose-pediatric-calculator/
 │   ├── 📄 main.tsx               # React entry point
 │   ├── 📄 index.css              # Global styles with TailwindCSS
 │   ├── 📂 components/            # React components
-│   │   ├── 🔍 DrugSearch.tsx     # Drug search with all 444 medications
+│   │   ├── 🔍 DrugSearch.tsx     # Drug search with all 509 medications
 │   │   ├── 🧮 DosageCalculator.tsx # Dose calculation engine
 │   │   └── 🎨 SplashScreen.tsx   # PWA splash screen
 │   ├── 📂 lib/                   # Utilities
@@ -68,7 +68,7 @@ The `public/pediatric_drugs.csv` contains the complete database:
 
 ### ✅ Search Functionality Fixed
 - Removed 50-drug limitation from DrugSearch component
-- All 444 medications are now searchable and accessible
+- All 509 medications are now searchable and accessible
 - Advanced filtering by medical system
 - Intelligent search across drug names, indications, and classes
 
