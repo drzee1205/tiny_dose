@@ -200,7 +200,7 @@ Musculoskeletal_Orthopedics,Dantrolene,Muscle relaxant,Malignant hyperthermia,1-
 Musculoskeletal_Orthopedics,Prednisolone,Corticosteroid,JRA myositis,1-2 mg/kg/day max 60 mg,60 mg/day,Tab liquid,PO,Once daily,Systemic infection,Same as above,Taper slowly
 Musculoskeletal_Orthopedics,Calcium,Vitamin D,Fracture prevention,500-1300 mg elemental daily,—,Tab chew,PO,Once daily,Hypercalcemia,Constipation,With vitamin D
 Musculoskeletal_Orthopedics,Vitamin D,Supplement,Bone health,400-1000 IU daily,—,Drops cap,PO,Once daily,Hypercalcemia,Hypercalcemia,Monitor Ca²⁺
-Muskeletal_Orthopedics,Orphenadrine,Muscle relaxant,Muscle spasm,2 mg/kg BID,—,Tab,PO,BID,Glaucoma,Anticholinergic,Monitor CNS
+Musculoskeletal_Orthopedics,Orphenadrine,Muscle relaxant,Muscle spasm,2 mg/kg BID,—,Tab,PO,BID,Glaucoma,Anticholinergic,Monitor CNS
 Neonatology,Vitamin K,Coagulation factor,Vit K deficiency,0.5-1 mg IM/IV/PO single,1 mg,Ampule tab,IM/IV/PO,Single,None,Anaphylaxis IV,Fresh ampule
 Neonatology,Caffeine citrate,Methylxanthine,Apnea of prematurity,Loading 20 mg/kg PO/IV then 5-10 mg/kg daily,—,Solution,PO/IV,Once daily,Hypersensitivity tachycardia,Tachycardia jitteriness,Monitor serum levels
 Neonatology,Surfactant (Beractant),Lung surfactant,RDS,100 mg/kg intratracheal q6h PRN (max 4 doses),400 mg/kg,Vial,Intratracheal,q6h PRN,None,Airway obstruction,Administer via ETT
@@ -508,3 +508,49 @@ Pain_Management_Anesthesia,Chloral hydrate,Sedative,Sedation for imaging,25-75 m
 Pain_Management_Anesthesia,Ketamine oral,Dissociative,Procedural sedation,3-10 mg/kg PO,10 mg/kg,Solution,PO,Single,Psychosis,Hypertension emergence,Airway ready
 Fluid_Electrolyte,Calcium gluconate 10 %,Electrolyte,Hypocalcemia,100-200 mg/kg IV slow,—,Ampule,IV,q6-8h,Hypercalcemia,Bradycardia,Monitor ECG
 Fluid_Electrolyte,Potassium phosphate,Electrolyte,Hypophosphatemia,0.15-0.3 mmol/kg IV q6-12h,0.5 mmol/kg,Vial,IV,q6-12h,Hyperphosphatemia,Hypocalcemia,Monitor Ca²⁺
+Gastroenterology,Oral Rehydration Solution,Electrolyte solution,Dehydration mild-moderate,75 mL/kg over 4 h mild 100 mL/kg over 6 h moderate,—,Powder sachets,PO,Continuous,Severe dehydration,Hypernatremia,WHO formula preferred
+Gastroenterology,Simethicone,Anti-gas,Infantile colic gas,20-40 mg q6h PRN,240 mg/day,Drops chew tab,PO,q6h PRN,None,None,Safe for infants
+Gastroenterology,Probiotics,Live microorganisms,Antibiotic-associated diarrhea,1-2 capsules or 5-10 billion CFU daily,—,Capsules powder,PO,Once-BID,Immunocompromised,None significant,Refrigerate some
+Gastroenterology,Docusate sodium,Stool softener,Constipation,2-5 mg/kg/day ÷ BID,500 mg/day,Liquid capsules,PO,BID,Bowel obstruction,Diarrhea cramps,Not stimulant laxative
+Gastroenterology,Kaolin-pectin,Antidiarrheal,Mild diarrhea,15-30 mL after each loose stool,—,Suspension,PO,PRN,Severe dehydration,Constipation,Not for bloody diarrhea
+Respiratory,Saline nasal drops,Nasal decongestant,Nasal congestion,2-3 drops per nostril PRN,—,Drops,Nasal,PRN,None,Nasal irritation,Safe for all ages
+Respiratory,Dextromethorphan,Antitussive,Cough ≥4 yrs,1-2 mg/kg/day ÷ q6h max 30 mg/day,30 mg/day,Syrup tab,PO,q6h,Age <4 yrs MAOI use,Drowsiness nausea,Not <4 yrs
+Respiratory,Guaifenesin,Expectorant,Productive cough ≥4 yrs,12 mg/kg/day ÷ q4h max 400 mg/dose,1200 mg/day,Syrup tab,PO,q4h,Age <4 yrs,Nausea dizziness,Encourage fluids
+Respiratory,Honey,Demulcent,Cough ≥1 yr,2.5-5 mL at bedtime,—,Natural,PO,At bedtime,Age <1 yr,None,Botulism risk <1 yr
+Respiratory,Ipratropium standalone,Anticholinergic,Rhinorrhea,2 sprays per nostril TID,—,Nasal spray,Nasal,TID,Hypersensitivity,Dryness epistaxis,For runny nose
+Infectious_Diseases,Sulfamethoxazole-Trimethoprim,Sulfonamide antibiotic,UTI pneumocystis,6-10 mg/kg/day TMP ÷ BID,320 mg TMP/day,Susp tab,PO,BID,Sulfa allergy,Hyperkalemia rash,Monitor K+ creatinine
+Infectious_Diseases,Nitrofurantoin,Urinary antiseptic,UTI prophylaxis,1-2 mg/kg/day ÷ daily-BID,100 mg/day,Susp capsules,PO,Daily-BID,Renal failure G6PD,Pulmonary fibrosis,Long-term use risk
+Infectious_Diseases,Metronidazole gel,Antiprotozoal,Bacterial vaginosis,0.75% gel 5 g intravaginally,—,Gel,Vaginal,Daily x5 days,Pregnancy 1st trimester,Metallic taste,Adolescents only
+Infectious_Diseases,Nystatin oral,Antifungal,Oral thrush,100000 U QID,—,Suspension,PO,QID,Hypersensitivity,None significant,Swish and swallow
+Infectious_Diseases,Ceftriaxone IM,3rd gen cephalosporin,Otitis media one-dose,50 mg/kg IM single dose,1 g,Vial,IM,Single,Cephalosporin allergy,Pain at injection,Outpatient option
+Dermatology,Zinc oxide,Barrier,Diaper rash,Apply to affected area PRN,—,Cream ointment,Topical,PRN,None,None,Barrier protection
+Dermatology,Petroleum jelly,Barrier,Dry skin chapped lips,Apply PRN,—,Ointment,Topical,PRN,None,None,Occlusive barrier
+Dermatology,Calamine lotion,Drying agent,Poison ivy chickenpox,Apply PRN,—,Lotion,Topical,PRN,None,Dryness,Cooling effect
+Dermatology,Bacitracin,Topical antibiotic,Minor cuts,Apply TID,—,Ointment,Topical,TID,Hypersensitivity,Contact dermatitis,OTC
+Dermatology,Neosporin,Triple antibiotic,Minor cuts,Apply BID-TID,—,Ointment cream,Topical,BID-TID,Hypersensitivity,Contact dermatitis,Neomycin sensitization
+Dermatology,Silver sulfadiazine,Topical antimicrobial,Burns,Apply daily-BID,—,Cream,Topical,Daily-BID,Sulfa allergy,Leukopenia,Monitor WBC
+Endocrine,Multivitamin drops,Vitamin supplement,Vitamin deficiency prevention,1 mL daily or per label,—,Drops,PO,Once daily,Hypervitaminosis,Nausea,Age-appropriate formulation
+Endocrine,Vitamin A,Fat-soluble vitamin,Deficiency,1500-5000 IU daily,—,Drops capsules,PO,Once daily,Hypervitaminosis A,Hepatotoxicity,Monitor levels
+Endocrine,Vitamin E,Antioxidant,Deficiency,15-25 IU daily,—,Drops capsules,PO,Once daily,Anticoagulant use,Bleeding,Monitor PT
+Endocrine,Vitamin C,Water-soluble vitamin,Scurvy iron absorption,50-100 mg daily,—,Chew tab drops,PO,Once daily,None,GI upset,Enhances iron absorption
+Pain_Management_Anesthesia,Lidocaine 2% gel,Local anesthetic,Topical anesthesia,Apply small amount PRN,—,Gel,Topical,PRN,Hypersensitivity,Contact dermatitis,Avoid mucous membranes
+Pain_Management_Anesthesia,Benzocaine spray,Local anesthetic,Sore throat >2 yrs,1-2 sprays PRN,—,Spray,Topical,PRN,Age <2 yrs,Methemoglobinemia,Risk in infants
+Pain_Management_Anesthesia,Camphor menthol,Topical analgesic,Muscle aches >2 yrs,Apply PRN,—,Balm,Topical,PRN,Age <2 yrs,Skin irritation,External use only
+Ophthalmology,Artificial tears,Lubricant,Dry eyes,1-2 drops PRN,—,Drops,Topical,PRN,None,Temporary blurring,Preservative-free preferred
+Ophthalmology,Saline eye wash,Irrigant,Eye irrigation,Flush as needed,—,Solution,Topical,PRN,None,None,Foreign body removal
+Otolaryngology,Ear wax removal drops,Cerumenolytic,Cerumen impaction,2-3 drops BID x3-4 days,—,Drops,Otic,BID,Perforated eardrum,Irritation,Soften before removal
+Otolaryngology,Antipyrine-benzocaine,Analgesic,Ear pain,2-3 drops q2h PRN,—,Drops,Otic,q2h PRN,Perforated eardrum,Local irritation,Temporary relief
+Hematology,Vitamin B6,Pyridoxine,Deficiency,1-2 mg/kg/day,100 mg/day,Tab liquid,PO,Once daily,None,Peripheral neuropathy high dose,Monitor with INH
+Hematology,Biotin,B vitamin,Deficiency,10-20 mcg/kg/day,—,Tab liquid,PO,Once daily,None,None,Hair nail health
+Immunology_Allergy,Calamine with antihistamine,Anti-itch,Itching,Apply PRN,—,Lotion,Topical,PRN,None,Drowsiness,Diphenhydramine含有
+Immunology_Allergy,Hydrocortisone cream 0.5%,Mild TCS,Eczema mild,Apply BID,—,Cream,Topical,BID,Infection,Skin atrophy,OTC strength
+Toxicology_Emergency,Ipecac syrup,Emetic,Poisoning (rarely used),15 mL (6mo-1yr) 30 mL (>1yr),—,Syrup,PO,Single,Caustic ingestion,Aspiration,Generally contraindicated
+Toxicology_Emergency,Glucose gel,Carbohydrate,Hypoglycemia,15 g PO,—,Gel,PO,PRN,None,Hyperglycemia,Fast-acting
+Neonatology,Simethicone infant drops,Anti-gas,Colic,0.3-0.6 mL q6h PRN,—,Drops,PO,q6h PRN,None,None,Safe in newborns
+Neonatology,Gripe water,Herbal remedy,Colic fussiness,2.5-5 mL PRN,—,Liquid,PO,PRN,None,None,Not FDA regulated
+Neonatology,Lanolin,Barrier,Nipple protection,Apply PRN,—,Ointment,Topical,PRN,Wool allergy,None,Breastfeeding aid
+Nephrology,Cranberry extract,Supplement,UTI prevention,300-400 mg daily,—,Capsules,PO,Daily,None,GI upset,Prevention only
+Musculoskeletal_Orthopedics,Arnica gel,Homeopathic,Bruises sprains,Apply PRN,—,Gel,Topical,PRN,Open wounds,Skin irritation,Alternative therapy
+Psychiatry_Behavioral,Melatonin,Hormone,Sleep disorders,0.5-3 mg 30 min before bed,5 mg,Tab liquid,PO,At bedtime,None,Drowsiness headache,Circadian rhythm
+Cardiovascular,Electrolyte popsicles,Electrolyte replacement,Mild dehydration,1-2 popsicles PRN,—,Frozen,PO,PRN,Severe dehydration,None,Pediatric-friendly
+Gastroenterology,Activated charcoal liquid,Adsorbent,Poisoning,1 g/kg PO,50 g,Liquid,PO,Single,Caustic ingestion,Constipation,Mix with sorbitol

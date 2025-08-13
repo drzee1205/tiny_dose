@@ -18,7 +18,7 @@ TinyDose is a professional Progressive Web App (PWA) designed for healthcare pro
 
 ### ✨ Key Features
 
-- 📊 **444 Pediatric Medications** across 23 medical specialties
+- 📊 **554 Pediatric Medications** across 23 medical specialties
 - 🧮 **Intelligent Calculator** with weight-based dosing and safety checks
 - 🔍 **Advanced Search** by drug name, indication, or medical system
 - ⭐ **Favorites & Recent** drugs for quick access
@@ -40,7 +40,7 @@ Deploy your own instance of TinyDose to Vercel with one click:
 
 **Features of your deployed instance:**
 - ✅ Complete PWA with offline support
-- ✅ All 444 pediatric medications
+- ✅ All 554 pediatric medications
 - ✅ 5-second professional splash screen
 - ✅ Automatic HTTPS and global CDN
 - ✅ Zero configuration required
@@ -159,7 +159,7 @@ tinydose-pwa/
 - **Windows**: Integrates with Start Menu and taskbar
 
 ### Offline Capabilities
-- **Complete Drug Database**: 509 medications cached locally
+- **Complete Drug Database**: 554 medications cached locally
 - **Full Calculator**: All dosing functions work offline
 - **Settings Persistence**: Favorites and preferences saved
 - **Service Worker**: Automatic updates when online
