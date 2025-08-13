@@ -25,11 +25,26 @@ TinyDose is a professional Progressive Web App (PWA) designed for healthcare pro
 - ⚠️ **Safety Alerts** for contraindications and dose limits
 - 📱 **Offline Ready** - works without internet connection
 - 🔧 **Installable** - add to home screen like a native app
+- 🎨 **Professional Splash Screen** - 5-second branded loading experience
 - 🌙 **Dark/Light Mode** with system preference support
 
 ## 🚀 Live Demo
 
 **Try TinyDose now**: [https://pediatric-drug-calculator-ebe965d7.scout.site](https://pediatric-drug-calculator-ebe965d7.scout.site)
+
+## 🚀 One-Click Deployment
+
+Deploy your own instance of TinyDose to Vercel with one click:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdrzee1205%2Ftiny_dose&project-name=tinydose-pwa&repository-name=tinydose-pwa&demo-title=TinyDose%20PWA&demo-description=Pediatric%20Drug%20Calculator%20PWA%20-%20Precision%20care%20in%20every%20drop&demo-url=https%3A%2F%2Fpediatric-drug-calculator-ebe965d7.scout.site&demo-image=https%3A%2F%2Fraw.githubusercontent.com%2Fdrzee1205%2Ftiny_dose%2Fmain%2Fpublic%2Fpwa-512x512.png)
+
+**Features of your deployed instance:**
+- ✅ Complete PWA with offline support
+- ✅ All 444 pediatric medications
+- ✅ 5-second professional splash screen
+- ✅ Automatic HTTPS and global CDN
+- ✅ Zero configuration required
+- ✅ Free hosting for personal/educational use
 
 ### 📱 Installation
 
