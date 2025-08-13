@@ -159,7 +159,7 @@ tinydose-pwa/
 - **Windows**: Integrates with Start Menu and taskbar
 
 ### Offline Capabilities
-- **Complete Drug Database**: 444 medications cached locally
+- **Complete Drug Database**: 509 medications cached locally
 - **Full Calculator**: All dosing functions work offline
 - **Settings Persistence**: Favorites and preferences saved
 - **Service Worker**: Automatic updates when online

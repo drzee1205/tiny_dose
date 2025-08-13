@@ -57,7 +57,7 @@ export default function SplashScreen() {
         {/* Medical Badge */}
         <div className="flex items-center justify-center space-x-2 text-sm text-gray-500 dark:text-gray-400">
           <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-          <span className="font-medium">444 medications • 23 specialties • PWA ready</span>
+          <span className="font-medium">509 medications • 23 specialties • PWA ready</span>
         </div>
       </div>
     </div>

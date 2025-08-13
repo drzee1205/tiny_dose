@@ -119,7 +119,7 @@
 - **Total Size**: ~10MB (including all assets)
 - **Initial Load**: ~400KB critical resources
 - **Offline Size**: ~10MB cached data
-- **Drug Records**: 444 medications
+- **Drug Records**: 509 medications
 - **Medical Systems**: 23 specialties covered
 - **Languages**: English (expandable)
 
