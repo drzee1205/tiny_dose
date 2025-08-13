@@ -1,4 +1,4 @@
-import { Drug, DoseCalculation, Patient } from '@/types/drug';
+import { Drug, DoseCalculation, Patient, DrugFilters } from '@/types/drug';
 
 let drugDatabase: Drug[] = [];
 let isLoaded = false;
@@ -75,13 +75,104 @@ export function searchDrugs(query: string, drugs: Drug[]): Drug[] {
     drug.name.toLowerCase().includes(searchTerm) ||
     drug.indication.toLowerCase().includes(searchTerm) ||
     drug.system.toLowerCase().includes(searchTerm) ||
-    drug.class.toLowerCase().includes(searchTerm)
+    drug.class.toLowerCase().includes(searchTerm) ||
+    drug.route.toLowerCase().includes(searchTerm) ||
+    drug.dosageForm.toLowerCase().includes(searchTerm) ||
+    drug.frequency.toLowerCase().includes(searchTerm)
   );
+}
+
+
+
+export function filterDrugs(drugs: Drug[], filters: DrugFilters): Drug[] {
+  let filtered = drugs;
+  
+  // Apply system filter
+  if (filters.system && filters.system !== 'all') {
+    filtered = filtered.filter(drug => drug.system === filters.system);
+  }
+  
+  // Apply drug class filter
+  if (filters.drugClass && filters.drugClass !== 'all') {
+    filtered = filtered.filter(drug => drug.class === filters.drugClass);
+  }
+  
+  // Apply route filter
+  if (filters.route && filters.route !== 'all') {
+    filtered = filtered.filter(drug => drug.route === filters.route);
+  }
+  
+  // Apply dosage form filter
+  if (filters.dosageForm && filters.dosageForm !== 'all') {
+    filtered = filtered.filter(drug => drug.dosageForm === filters.dosageForm);
+  }
+  
+  // Apply frequency filter
+  if (filters.frequency && filters.frequency !== 'all') {
+    filtered = filtered.filter(drug => drug.frequency === filters.frequency);
+  }
+  
+  // Apply sorting
+  if (filters.sortBy) {
+    filtered = sortDrugs(filtered, filters.sortBy);
+  }
+  
+  return filtered;
 }
 
 export function filterDrugsBySystem(system: string, drugs: Drug[]): Drug[] {
   if (!system || system === 'all') return drugs;
   return drugs.filter(drug => drug.system === system);
+}
+
+export function sortDrugs(drugs: Drug[], sortBy: 'name' | 'system' | 'class' | 'route'): Drug[] {
+  return [...drugs].sort((a, b) => {
+    const aValue = a[sortBy].toLowerCase();
+    const bValue = b[sortBy].toLowerCase();
+    return aValue.localeCompare(bValue);
+  });
+}
+
+export function getUniqueValues(drugs: Drug[], field: keyof Drug): string[] {
+  const values = drugs.map(drug => drug[field]).filter(Boolean);
+  return [...new Set(values)].sort();
+}
+
+export function getQuickFilters(drugs: Drug[]): { label: string; count: number; filters: DrugFilters }[] {
+  const totalDrugs = drugs.length;
+  
+  return [
+    {
+      label: `Emergency (${drugs.filter(d => d.system === 'Toxicology_Emergency').length})`,
+      count: drugs.filter(d => d.system === 'Toxicology_Emergency').length,
+      filters: { system: 'Toxicology_Emergency' }
+    },
+    {
+      label: `IV Medications (${drugs.filter(d => d.route.includes('IV')).length})`,
+      count: drugs.filter(d => d.route.includes('IV')).length,
+      filters: { route: 'IV' }
+    },
+    {
+      label: `Oral (${drugs.filter(d => d.route === 'PO').length})`,
+      count: drugs.filter(d => d.route === 'PO').length,
+      filters: { route: 'PO' }
+    },
+    {
+      label: `Antibiotics (${drugs.filter(d => d.system === 'Infectious_Diseases').length})`,
+      count: drugs.filter(d => d.system === 'Infectious_Diseases').length,
+      filters: { system: 'Infectious_Diseases' }
+    },
+    {
+      label: `Once Daily (${drugs.filter(d => d.frequency.includes('Once daily') || d.frequency.includes('daily')).length})`,
+      count: drugs.filter(d => d.frequency.includes('Once daily') || d.frequency.includes('daily')).length,
+      filters: { frequency: 'Once daily' }
+    },
+    {
+      label: `Cardiovascular (${drugs.filter(d => d.system === 'Cardiovascular').length})`,
+      count: drugs.filter(d => d.system === 'Cardiovascular').length,
+      filters: { system: 'Cardiovascular' }
+    }
+  ].filter(f => f.count > 0);
 }
 
 export function calculateDose(drug: Drug, patient: Patient): DoseCalculation {
