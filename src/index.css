@@ -131,3 +131,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom animation delays for splash screen */
+.animation-delay-200 {
+  animation-delay: 200ms;
+}

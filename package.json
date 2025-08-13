@@ -1,8 +1,16 @@
 {
-  "name": "vite-template",
-  "private": true,
-  "version": "0.0.0",
+  "name": "tinydose-pwa",
+  "description": "TinyDose - Pediatric Drug Calculator PWA. Precision care in every drop.",
+  "version": "1.0.0",
   "type": "module",
+  "keywords": ["pediatric", "drug", "calculator", "pwa", "medical", "healthcare", "dosage"],
+  "author": "TinyDose Team",
+  "license": "MIT",
+  "homepage": "https://github.com/drzee1205/tiny_dose",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drzee1205/tiny_dose.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

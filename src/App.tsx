@@ -18,8 +18,18 @@ type AppState = 'search' | 'calculator' | 'settings';
 export default function App() {
   const [currentState, setCurrentState] = useState<AppState>('search');
   const [selectedDrug, setSelectedDrug] = useState<Drug | null>(null);
+  const [showSplash, setShowSplash] = useState(true);
   const { drugs, loading, error } = useDrugDatabase();
   const { settings, updateSettings, toggleFavorite, addToRecent, toggleDarkMode, isLoaded } = useSettings();
+
+  // Splash screen timer - ensure it shows for 5 seconds minimum
+  useEffect(() => {
+    const splashTimer = setTimeout(() => {
+      setShowSplash(false);
+    }, 5000); // 5 seconds
+
+    return () => clearTimeout(splashTimer);
+  }, []);
 
   // Apply dark mode class to document
   useEffect(() => {
@@ -43,7 +53,7 @@ export default function App() {
     setCurrentState('settings');
   };
 
-  if (loading) {
+  if (loading || showSplash) {
     return <SplashScreen />;
   }
 
